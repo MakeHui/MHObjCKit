@@ -16,6 +16,63 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MHObjCKit/PublicHeader.h>
 
+// https://github.com/paytronix/ASIHTTPRequest
+#import <MHObjCKit/ASIAuthenticationDialog.h>
+#import <MHObjCKit/ASICacheDelegate.h>
+#import <MHObjCKit/ASIDataCompressor.h>
+#import <MHObjCKit/ASIDataDecompressor.h>
+#import <MHObjCKit/ASIDownloadCache.h>
+#import <MHObjCKit/ASIFormDataRequest.h>
+#import <MHObjCKit/ASIHTTPRequest.h>
+#import <MHObjCKit/ASIHTTPRequestConfig.h>
+#import <MHObjCKit/ASIHTTPRequestDelegate.h>
+#import <MHObjCKit/ASIInputStream.h>
+#import <MHObjCKit/ASINetworkQueue.h>
+#import <MHObjCKit/ASIProgressDelegate.h>
+#import <MHObjCKit/ASIWebPageRequest.h>
+#import <MHObjCKit/ASICloudFilesCDNRequest.h>
+#import <MHObjCKit/ASICloudFilesContainer.h>
+#import <MHObjCKit/ASICloudFilesContainerRequest.h>
+#import <MHObjCKit/ASICloudFilesContainerXMLParserDelegate.h>
+#import <MHObjCKit/ASICloudFilesObject.h>
+#import <MHObjCKit/ASICloudFilesObjectRequest.h>
+#import <MHObjCKit/ASICloudFilesRequest.h>
+#import <MHObjCKit/ASINSXMLParserCompat.h>
+#import <MHObjCKit/ASIS3Bucket.h>
+#import <MHObjCKit/ASIS3BucketObject.h>
+#import <MHObjCKit/ASIS3BucketRequest.h>
+#import <MHObjCKit/ASIS3ObjectRequest.h>
+#import <MHObjCKit/ASIS3Request.h>
+#import <MHObjCKit/ASIS3ServiceRequest.h>
+
+// https://github.com/tonymillion/Reachability
+#import <MHObjCKit/Reachability.h>
+
+// https://github.com/renzifeng/ZFDownload
+#import <MHObjCKit/ZFCommonHelper.h>
+#import <MHObjCKit/ZFDownloadDelegate.h>
+#import <MHObjCKit/ZFDownloadManager.h>
+#import <MHObjCKit/ZFFileModel.h>
+#import <MHObjCKit/ZFHttpRequest.h>
+
+// https://github.com/renzifeng/ZFNavigationController
+#import <MHObjCKit/UINavigationController+ZFFullscreenPopGesture.h>
+
+// https://github.com/renzifeng/ZFPlayer
+#import <MHObjCKit/ASValuePopUpView.h>
+#import <MHObjCKit/ASValueTrackingSlider.h>
+#import <MHObjCKit/UIImageView+ZFCache.h>
+#import <MHObjCKit/UIView+CustomControlView.h>
+#import <MHObjCKit/UIViewController+ZFPlayerRotation.h>
+#import <MHObjCKit/UIWindow+CurrentViewController.h>
+#import <MHObjCKit/MMMaterialDesignSpinner.h>
+#import <MHObjCKit/ZFBrightnessView.h>
+#import <MHObjCKit/ZFPlayer.h>
+#import <MHObjCKit/ZFPlayerControlView.h>
+#import <MHObjCKit/ZFPlayerControlViewDelegate.h>
+#import <MHObjCKit/ZFPlayerModel.h>
+#import <MHObjCKit/ZFPlayerView.h>
+
 // https://github.com/newyjp/JPNavigationController
 #import <MHObjCKit/JPBaseAnimationTransition.h>
 #import <MHObjCKit/JPNavigationController.h>

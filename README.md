@@ -36,6 +36,14 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v1.1.0
+
+- [paytronix/ASIHTTPRequest](https://github.com/paytronix/ASIHTTPRequest)
+- [tonymillion/Reachability](https://github.com/tonymillion/Reachability)
+- [renzifeng/ZFDownload](https://github.com/renzifeng/ZFDownload)
+- [renzifeng/ZFNavigationController](https://github.com/renzifeng/ZFNavigationController)
+- [renzifeng/ZFPlayer](https://github.com/renzifeng/ZFPlayer)
+
 ### v1.0.0
 
 - [forkingdog/FDStackView](https://github.com/forkingdog/FDStackView)

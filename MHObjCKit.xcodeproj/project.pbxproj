@@ -157,8 +157,6 @@
 		7CF836FA2081B45D0078E28B /* UIView+ScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836DD2081B45D0078E28B /* UIView+ScreenCapture.m */; };
 		7CF836FB2081B45D0078E28B /* UIViewController+ViewControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836DE2081B45D0078E28B /* UIViewController+ViewControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CF836FC2081B45D0078E28B /* UIViewController+ViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836DF2081B45D0078E28B /* UIViewController+ViewControllers.m */; };
-		7CF837322081D4B70078E28B /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF837022081D4B60078E28B /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF837332081D4B70078E28B /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF837032081D4B60078E28B /* UINavigationController+FDFullscreenPopGesture.m */; };
 		7CF837342081D4B70078E28B /* FDGapLayoutGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF837052081D4B60078E28B /* FDGapLayoutGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CF837352081D4B70078E28B /* FDGapLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF837062081D4B60078E28B /* FDGapLayoutGuide.m */; };
 		7CF837362081D4B70078E28B /* FDLayoutSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF837072081D4B60078E28B /* FDLayoutSpacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -353,8 +351,6 @@
 		7CF836DD2081B45D0078E28B /* UIView+ScreenCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScreenCapture.m"; sourceTree = "<group>"; };
 		7CF836DE2081B45D0078E28B /* UIViewController+ViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewControllers.h"; sourceTree = "<group>"; };
 		7CF836DF2081B45D0078E28B /* UIViewController+ViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewControllers.m"; sourceTree = "<group>"; };
-		7CF837022081D4B60078E28B /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		7CF837032081D4B60078E28B /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		7CF837052081D4B60078E28B /* FDGapLayoutGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDGapLayoutGuide.h; sourceTree = "<group>"; };
 		7CF837062081D4B60078E28B /* FDGapLayoutGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDGapLayoutGuide.m; sourceTree = "<group>"; };
 		7CF837072081D4B60078E28B /* FDLayoutSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDLayoutSpacer.h; sourceTree = "<group>"; };
@@ -591,7 +587,6 @@
 				7C6CB3C2208846A200B352AE /* ZFNavigationController */,
 				7C6CB365208846A100B352AE /* ZFPlayer */,
 				7CF8372D2081D4B70078E28B /* FCUUID */,
-				7CF837012081D4B60078E28B /* FDFullscreenPopGesture */,
 				7CF837042081D4B60078E28B /* FDStackView */,
 				7CF8371A2081D4B60078E28B /* NSTEasyJSON */,
 				7CF837152081D4B60078E28B /* NSUserDefaults-DefaultValues */,
@@ -675,15 +670,6 @@
 				7CF836DF2081B45D0078E28B /* UIViewController+ViewControllers.m */,
 			);
 			path = JPNavigationController;
-			sourceTree = "<group>";
-		};
-		7CF837012081D4B60078E28B /* FDFullscreenPopGesture */ = {
-			isa = PBXGroup;
-			children = (
-				7CF837022081D4B60078E28B /* UINavigationController+FDFullscreenPopGesture.h */,
-				7CF837032081D4B60078E28B /* UINavigationController+FDFullscreenPopGesture.m */,
-			);
-			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 		7CF837042081D4B60078E28B /* FDStackView */ = {
@@ -804,7 +790,6 @@
 				7CF836E32081B45D0078E28B /* JPNavigationController.h in Headers */,
 				7CF837452081D4B70078E28B /* NSUserDefaults+DefaultValues.h in Headers */,
 				7CF837342081D4B70078E28B /* FDGapLayoutGuide.h in Headers */,
-				7CF837322081D4B70078E28B /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
 				7CF837522081D4B70078E28B /* SDCollectionViewCell.h in Headers */,
 				7CF837402081D4B70078E28B /* FDStackViewLayoutArrangement.h in Headers */,
 				7CF8374A2081D4B70078E28B /* TAAbstractDotView.h in Headers */,
@@ -984,7 +969,6 @@
 				7CF837412081D4B70078E28B /* FDStackViewLayoutArrangement.m in Sources */,
 				7CF836B42081B4200078E28B /* JPVideoPlayerDownloader.m in Sources */,
 				7C6CB3CE208846A200B352AE /* UIViewController+ZFPlayerRotation.m in Sources */,
-				7CF837332081D4B70078E28B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				7C6CB40A208846A200B352AE /* ASIS3BucketRequest.m in Sources */,
 				7C6CB3FB208846A200B352AE /* ASICloudFilesContainerRequest.m in Sources */,
 				7CF836FA2081B45D0078E28B /* UIView+ScreenCapture.m in Sources */,

@@ -112,9 +112,6 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/FCUUID.h>
 #import <MHObjCKit/UIDevice+FCUUID.h>
 
-// https://github.com/forkingdog/FDFullscreenPopGesture
-#import <MHObjCKit/UINavigationController+FDFullscreenPopGesture.h>
-
 // https://github.com/forkingdog/FDStackView
 #import <MHObjCKit/FDGapLayoutGuide.h>
 #import <MHObjCKit/FDLayoutSpacer.h>

@@ -98,6 +98,14 @@
 		7C6CB4202088478D00B352AE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6CB41E2088478D00B352AE /* Masonry.framework */; };
 		7C6CB4212088478D00B352AE /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6CB41F2088478D00B352AE /* SDWebImage.framework */; };
 		7CD807F42081AE6A00D398B8 /* MHObjCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD807F22081AE6A00D398B8 /* MHObjCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF0524B208DC44E00613E60 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF05243208DC44E00613E60 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF0524C208DC44E00613E60 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF05244208DC44E00613E60 /* UIColor+HexString.m */; };
+		7CF0524D208DC44E00613E60 /* UIImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF05245208DC44E00613E60 /* UIImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF0524E208DC44E00613E60 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF05246208DC44E00613E60 /* UIImageEffects.m */; };
+		7CF0524F208DC44E00613E60 /* UIView+DropShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF05247208DC44E00613E60 /* UIView+DropShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF05250208DC44E00613E60 /* UIView+DropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF05248208DC44E00613E60 /* UIView+DropShadow.m */; };
+		7CF05251208DC44E00613E60 /* ZHPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF05249208DC44E00613E60 /* ZHPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF05252208DC44E00613E60 /* ZHPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0524A208DC44E00613E60 /* ZHPopupView.m */; };
 		7CF836A42081B4200078E28B /* JPResourceLoadingRequestTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836862081B41F0078E28B /* JPResourceLoadingRequestTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CF836A52081B4200078E28B /* JPResourceLoadingRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836872081B41F0078E28B /* JPResourceLoadingRequestTask.m */; };
 		7CF836A62081B4200078E28B /* JPVideoPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CF836882081B41F0078E28B /* JPVideoPlayer.bundle */; };
@@ -292,6 +300,14 @@
 		7CD807EF2081AE6A00D398B8 /* MHObjCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHObjCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD807F22081AE6A00D398B8 /* MHObjCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHObjCKit.h; sourceTree = "<group>"; };
 		7CD807F32081AE6A00D398B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF05243208DC44E00613E60 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		7CF05244208DC44E00613E60 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		7CF05245208DC44E00613E60 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		7CF05246208DC44E00613E60 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		7CF05247208DC44E00613E60 /* UIView+DropShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DropShadow.h"; sourceTree = "<group>"; };
+		7CF05248208DC44E00613E60 /* UIView+DropShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DropShadow.m"; sourceTree = "<group>"; };
+		7CF05249208DC44E00613E60 /* ZHPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPopupView.h; sourceTree = "<group>"; };
+		7CF0524A208DC44E00613E60 /* ZHPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPopupView.m; sourceTree = "<group>"; };
 		7CF836862081B41F0078E28B /* JPResourceLoadingRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPResourceLoadingRequestTask.h; sourceTree = "<group>"; };
 		7CF836872081B41F0078E28B /* JPResourceLoadingRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPResourceLoadingRequestTask.m; sourceTree = "<group>"; };
 		7CF836882081B41F0078E28B /* JPVideoPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JPVideoPlayer.bundle; sourceTree = "<group>"; };
@@ -581,6 +597,7 @@
 		7CD807F12081AE6A00D398B8 /* MHObjCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7CF05242208DC44E00613E60 /* ZHPopupView */,
 				7C6CB383208846A200B352AE /* ASIHTTPRequest */,
 				7C6CB380208846A100B352AE /* Reachability */,
 				7C6CB3B8208846A200B352AE /* ZFDownload */,
@@ -597,6 +614,21 @@
 				7CD807F32081AE6A00D398B8 /* Info.plist */,
 			);
 			path = MHObjCKit;
+			sourceTree = "<group>";
+		};
+		7CF05242208DC44E00613E60 /* ZHPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				7CF05243208DC44E00613E60 /* UIColor+HexString.h */,
+				7CF05244208DC44E00613E60 /* UIColor+HexString.m */,
+				7CF05245208DC44E00613E60 /* UIImageEffects.h */,
+				7CF05246208DC44E00613E60 /* UIImageEffects.m */,
+				7CF05247208DC44E00613E60 /* UIView+DropShadow.h */,
+				7CF05248208DC44E00613E60 /* UIView+DropShadow.m */,
+				7CF05249208DC44E00613E60 /* ZHPopupView.h */,
+				7CF0524A208DC44E00613E60 /* ZHPopupView.m */,
+			);
+			path = ZHPopupView;
 			sourceTree = "<group>";
 		};
 		7CF836852081B41F0078E28B /* JPVideoPlayer */ = {
@@ -865,6 +897,10 @@
 				7CF836E52081B45D0078E28B /* JPNavigationControllerCompat.h in Headers */,
 				7CF836FB2081B45D0078E28B /* UIViewController+ViewControllers.h in Headers */,
 				7CF836B72081B4200078E28B /* JPVideoPlayerProtocol.h in Headers */,
+				7CF05251208DC44E00613E60 /* ZHPopupView.h in Headers */,
+				7CF0524B208DC44E00613E60 /* UIColor+HexString.h in Headers */,
+				7CF0524F208DC44E00613E60 /* UIView+DropShadow.h in Headers */,
+				7CF0524D208DC44E00613E60 /* UIImageEffects.h in Headers */,
 				7CF836B12081B4200078E28B /* JPVideoPlayerControlViews.h in Headers */,
 				7CD807F42081AE6A00D398B8 /* MHObjCKit.h in Headers */,
 				7CF836B52081B4200078E28B /* JPVideoPlayerManager.h in Headers */,
@@ -977,6 +1013,7 @@
 				7C6CB3F5208846A200B352AE /* ASIWebPageRequest.m in Sources */,
 				7C6CB3D8208846A200B352AE /* ZFPlayerControlView.m in Sources */,
 				7CF837372081D4B70078E28B /* FDLayoutSpacer.m in Sources */,
+				7CF0524E208DC44E00613E60 /* UIImageEffects.m in Sources */,
 				7C6CB41B208846A200B352AE /* UINavigationController+ZFFullscreenPopGesture.m in Sources */,
 				7CF836B02081B4200078E28B /* JPVideoPlayerCompat.m in Sources */,
 				7C6CB3C6208846A200B352AE /* ASValuePopUpView.m in Sources */,
@@ -1003,6 +1040,7 @@
 				7CF836F12081B45D0078E28B /* JPWarpNavigationController.m in Sources */,
 				7C6CB3DB208846A200B352AE /* ZFPlayerModel.m in Sources */,
 				7CF836AC2081B4200078E28B /* JPVideoPlayerCacheFile.m in Sources */,
+				7CF05252208DC44E00613E60 /* ZHPopupView.m in Sources */,
 				7CF836A52081B4200078E28B /* JPResourceLoadingRequestTask.m in Sources */,
 				7C6CB3E4208846A200B352AE /* ASIDataCompressor.m in Sources */,
 				7CF837432081D4B70078E28B /* FDTransformLayer.m in Sources */,
@@ -1013,12 +1051,14 @@
 				7CF837492081D4B70078E28B /* NSTEasyJSON.m in Sources */,
 				7CF837462081D4B70078E28B /* NSUserDefaults+DefaultValues.m in Sources */,
 				7C6CB3E8208846A200B352AE /* ASIDownloadCache.m in Sources */,
+				7CF0524C208DC44E00613E60 /* UIColor+HexString.m in Sources */,
 				7C6CB3CC208846A200B352AE /* UIView+CustomControlView.m in Sources */,
 				7CF837532081D4B70078E28B /* SDCollectionViewCell.m in Sources */,
 				7CF8374B2081D4B70078E28B /* TAAbstractDotView.m in Sources */,
 				7CF836B92081B4200078E28B /* JPVideoPlayerResourceLoader.m in Sources */,
 				7CF837392081D4B70078E28B /* FDStackView.m in Sources */,
 				7CF8373B2081D4B70078E28B /* FDStackViewAlignmentLayoutArrangement.m in Sources */,
+				7CF05250208DC44E00613E60 /* UIView+DropShadow.m in Sources */,
 				7C6CB406208846A200B352AE /* ASIS3Bucket.m in Sources */,
 				7C6CB401208846A200B352AE /* ASICloudFilesObjectRequest.m in Sources */,
 				7CF836AE2081B4200078E28B /* JPVideoPlayerCachePath.m in Sources */,

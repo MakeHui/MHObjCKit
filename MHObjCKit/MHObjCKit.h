@@ -137,4 +137,9 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/SDCycleScrollView.h>
 #import <MHObjCKit/UIView+SDExtension.h>
 
+// https://github.com/zhhlmr/ZHPopupView
+#import <MHObjCKit/UIColor+HexString.h>
+#import <MHObjCKit/UIImageEffects.h>
+#import <MHObjCKit/UIView+DropShadow.h>
+#import <MHObjCKit/ZHPopupView.h>
 

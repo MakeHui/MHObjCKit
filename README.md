@@ -36,6 +36,11 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v1.2.0
+
+- [zhhlmr/ZHPopupView](https://github.com/zhhlmr/ZHPopupView)
+- ~~[forkingdog/FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)~~
+- 
 ### v1.1.0
 
 - [paytronix/ASIHTTPRequest](https://github.com/paytronix/ASIHTTPRequest)
@@ -53,7 +58,7 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 - [danielgindi/NSUserDefaults-DefaultValues](https://github.com/danielgindi/NSUserDefaults-DefaultValues)
 - [newyjp/JPNavigationController](https://github.com/newyjp/JPNavigationController)
 - [newyjp/JPVideoPlayer](https://github.com/newyjp/JPVideoPlayer)
-- [forkingdog/FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)
+- ~~[forkingdog/FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)~~
 
 ## License
 

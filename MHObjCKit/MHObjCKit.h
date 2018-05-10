@@ -73,24 +73,6 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/ZFPlayerModel.h>
 #import <MHObjCKit/ZFPlayerView.h>
 
-// https://github.com/newyjp/JPNavigationController
-#import <MHObjCKit/JPBaseAnimationTransition.h>
-#import <MHObjCKit/JPNavigationController.h>
-#import <MHObjCKit/JPNavigationControllerCompat.h>
-#import <MHObjCKit/JPNavigationControllerGestureRecognizer.h>
-#import <MHObjCKit/JPNavigationControllerKit.h>
-#import <MHObjCKit/JPNavigationControllerProtocol.h>
-#import <MHObjCKit/JPNavigationControllerTransition.h>
-#import <MHObjCKit/JPPushAnimationTransition.h>
-#import <MHObjCKit/JPTransitionShadowView.h>
-#import <MHObjCKit/JPWarpNavigationController.h>
-#import <MHObjCKit/JPWarpViewController.h>
-#import <MHObjCKit/UIColor+ImageGenerate.h>
-#import <MHObjCKit/UINavigationBar+HitTest.h>
-#import <MHObjCKit/UINavigationController+FulllScreenPopPush.h>
-#import <MHObjCKit/UIView+ScreenCapture.h>
-#import <MHObjCKit/UIViewController+ViewControllers.h>
-
 // https://github.com/newyjp/JPVideoPlayer
 #import <MHObjCKit/JPResourceLoadingRequestTask.h>
 #import <MHObjCKit/JPVideoPlayer.h>

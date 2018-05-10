@@ -136,35 +136,6 @@
 		7CF836BF2081B4200078E28B /* UITableViewCell+WebVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836A12081B41F0078E28B /* UITableViewCell+WebVideoCache.m */; };
 		7CF836C02081B4200078E28B /* UIView+WebVideoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836A22081B41F0078E28B /* UIView+WebVideoCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CF836C12081B4200078E28B /* UIView+WebVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836A32081B41F0078E28B /* UIView+WebVideoCache.m */; };
-		7CF836E02081B45D0078E28B /* JPBaseAnimationTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836C32081B45D0078E28B /* JPBaseAnimationTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836E12081B45D0078E28B /* JPBaseAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836C42081B45D0078E28B /* JPBaseAnimationTransition.m */; };
-		7CF836E22081B45D0078E28B /* JPNavigationController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CF836C52081B45D0078E28B /* JPNavigationController.bundle */; };
-		7CF836E32081B45D0078E28B /* JPNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836C62081B45D0078E28B /* JPNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836E42081B45D0078E28B /* JPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836C72081B45D0078E28B /* JPNavigationController.m */; };
-		7CF836E52081B45D0078E28B /* JPNavigationControllerCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836C82081B45D0078E28B /* JPNavigationControllerCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836E62081B45D0078E28B /* JPNavigationControllerGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836C92081B45D0078E28B /* JPNavigationControllerGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836E72081B45D0078E28B /* JPNavigationControllerGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836CA2081B45D0078E28B /* JPNavigationControllerGestureRecognizer.m */; };
-		7CF836E82081B45D0078E28B /* JPNavigationControllerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836CB2081B45D0078E28B /* JPNavigationControllerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836E92081B45D0078E28B /* JPNavigationControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836CC2081B45D0078E28B /* JPNavigationControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836EA2081B45D0078E28B /* JPNavigationControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836CD2081B45D0078E28B /* JPNavigationControllerTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836EB2081B45D0078E28B /* JPNavigationControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836CE2081B45D0078E28B /* JPNavigationControllerTransition.m */; };
-		7CF836EC2081B45D0078E28B /* JPPushAnimationTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836CF2081B45D0078E28B /* JPPushAnimationTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836ED2081B45D0078E28B /* JPPushAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836D02081B45D0078E28B /* JPPushAnimationTransition.m */; };
-		7CF836EE2081B45D0078E28B /* JPTransitionShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836D12081B45D0078E28B /* JPTransitionShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836EF2081B45D0078E28B /* JPTransitionShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836D22081B45D0078E28B /* JPTransitionShadowView.m */; };
-		7CF836F02081B45D0078E28B /* JPWarpNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836D32081B45D0078E28B /* JPWarpNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836F12081B45D0078E28B /* JPWarpNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836D42081B45D0078E28B /* JPWarpNavigationController.m */; };
-		7CF836F22081B45D0078E28B /* JPWarpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836D52081B45D0078E28B /* JPWarpViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836F32081B45D0078E28B /* JPWarpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836D62081B45D0078E28B /* JPWarpViewController.m */; };
-		7CF836F42081B45D0078E28B /* UIColor+ImageGenerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836D72081B45D0078E28B /* UIColor+ImageGenerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836F52081B45D0078E28B /* UIColor+ImageGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836D82081B45D0078E28B /* UIColor+ImageGenerate.m */; };
-		7CF836F62081B45D0078E28B /* UINavigationBar+HitTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836D92081B45D0078E28B /* UINavigationBar+HitTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836F72081B45D0078E28B /* UINavigationBar+HitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836DA2081B45D0078E28B /* UINavigationBar+HitTest.m */; };
-		7CF836F82081B45D0078E28B /* UINavigationController+FulllScreenPopPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836DB2081B45D0078E28B /* UINavigationController+FulllScreenPopPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836F92081B45D0078E28B /* UIView+ScreenCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836DC2081B45D0078E28B /* UIView+ScreenCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836FA2081B45D0078E28B /* UIView+ScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836DD2081B45D0078E28B /* UIView+ScreenCapture.m */; };
-		7CF836FB2081B45D0078E28B /* UIViewController+ViewControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF836DE2081B45D0078E28B /* UIViewController+ViewControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CF836FC2081B45D0078E28B /* UIViewController+ViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF836DF2081B45D0078E28B /* UIViewController+ViewControllers.m */; };
 		7CF837342081D4B70078E28B /* FDGapLayoutGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF837052081D4B60078E28B /* FDGapLayoutGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CF837352081D4B70078E28B /* FDGapLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF837062081D4B60078E28B /* FDGapLayoutGuide.m */; };
 		7CF837362081D4B70078E28B /* FDLayoutSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF837072081D4B60078E28B /* FDLayoutSpacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -338,35 +309,6 @@
 		7CF836A12081B41F0078E28B /* UITableViewCell+WebVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WebVideoCache.m"; sourceTree = "<group>"; };
 		7CF836A22081B41F0078E28B /* UIView+WebVideoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebVideoCache.h"; sourceTree = "<group>"; };
 		7CF836A32081B41F0078E28B /* UIView+WebVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebVideoCache.m"; sourceTree = "<group>"; };
-		7CF836C32081B45D0078E28B /* JPBaseAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBaseAnimationTransition.h; sourceTree = "<group>"; };
-		7CF836C42081B45D0078E28B /* JPBaseAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBaseAnimationTransition.m; sourceTree = "<group>"; };
-		7CF836C52081B45D0078E28B /* JPNavigationController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JPNavigationController.bundle; sourceTree = "<group>"; };
-		7CF836C62081B45D0078E28B /* JPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavigationController.h; sourceTree = "<group>"; };
-		7CF836C72081B45D0078E28B /* JPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNavigationController.m; sourceTree = "<group>"; };
-		7CF836C82081B45D0078E28B /* JPNavigationControllerCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavigationControllerCompat.h; sourceTree = "<group>"; };
-		7CF836C92081B45D0078E28B /* JPNavigationControllerGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavigationControllerGestureRecognizer.h; sourceTree = "<group>"; };
-		7CF836CA2081B45D0078E28B /* JPNavigationControllerGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNavigationControllerGestureRecognizer.m; sourceTree = "<group>"; };
-		7CF836CB2081B45D0078E28B /* JPNavigationControllerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavigationControllerKit.h; sourceTree = "<group>"; };
-		7CF836CC2081B45D0078E28B /* JPNavigationControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavigationControllerProtocol.h; sourceTree = "<group>"; };
-		7CF836CD2081B45D0078E28B /* JPNavigationControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavigationControllerTransition.h; sourceTree = "<group>"; };
-		7CF836CE2081B45D0078E28B /* JPNavigationControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNavigationControllerTransition.m; sourceTree = "<group>"; };
-		7CF836CF2081B45D0078E28B /* JPPushAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPushAnimationTransition.h; sourceTree = "<group>"; };
-		7CF836D02081B45D0078E28B /* JPPushAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPushAnimationTransition.m; sourceTree = "<group>"; };
-		7CF836D12081B45D0078E28B /* JPTransitionShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPTransitionShadowView.h; sourceTree = "<group>"; };
-		7CF836D22081B45D0078E28B /* JPTransitionShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTransitionShadowView.m; sourceTree = "<group>"; };
-		7CF836D32081B45D0078E28B /* JPWarpNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPWarpNavigationController.h; sourceTree = "<group>"; };
-		7CF836D42081B45D0078E28B /* JPWarpNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPWarpNavigationController.m; sourceTree = "<group>"; };
-		7CF836D52081B45D0078E28B /* JPWarpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPWarpViewController.h; sourceTree = "<group>"; };
-		7CF836D62081B45D0078E28B /* JPWarpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPWarpViewController.m; sourceTree = "<group>"; };
-		7CF836D72081B45D0078E28B /* UIColor+ImageGenerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGenerate.h"; sourceTree = "<group>"; };
-		7CF836D82081B45D0078E28B /* UIColor+ImageGenerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGenerate.m"; sourceTree = "<group>"; };
-		7CF836D92081B45D0078E28B /* UINavigationBar+HitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HitTest.h"; sourceTree = "<group>"; };
-		7CF836DA2081B45D0078E28B /* UINavigationBar+HitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HitTest.m"; sourceTree = "<group>"; };
-		7CF836DB2081B45D0078E28B /* UINavigationController+FulllScreenPopPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FulllScreenPopPush.h"; sourceTree = "<group>"; };
-		7CF836DC2081B45D0078E28B /* UIView+ScreenCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScreenCapture.h"; sourceTree = "<group>"; };
-		7CF836DD2081B45D0078E28B /* UIView+ScreenCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScreenCapture.m"; sourceTree = "<group>"; };
-		7CF836DE2081B45D0078E28B /* UIViewController+ViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewControllers.h"; sourceTree = "<group>"; };
-		7CF836DF2081B45D0078E28B /* UIViewController+ViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewControllers.m"; sourceTree = "<group>"; };
 		7CF837052081D4B60078E28B /* FDGapLayoutGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDGapLayoutGuide.h; sourceTree = "<group>"; };
 		7CF837062081D4B60078E28B /* FDGapLayoutGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDGapLayoutGuide.m; sourceTree = "<group>"; };
 		7CF837072081D4B60078E28B /* FDLayoutSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDLayoutSpacer.h; sourceTree = "<group>"; };
@@ -608,7 +550,6 @@
 				7CF8371A2081D4B60078E28B /* NSTEasyJSON */,
 				7CF837152081D4B60078E28B /* NSUserDefaults-DefaultValues */,
 				7CF8371D2081D4B60078E28B /* SDCycleScrollView */,
-				7CF836C22081B45D0078E28B /* JPNavigationController */,
 				7CF836852081B41F0078E28B /* JPVideoPlayer */,
 				7CD807F22081AE6A00D398B8 /* MHObjCKit.h */,
 				7CD807F32081AE6A00D398B8 /* Info.plist */,
@@ -666,42 +607,6 @@
 				7CF836A32081B41F0078E28B /* UIView+WebVideoCache.m */,
 			);
 			path = JPVideoPlayer;
-			sourceTree = "<group>";
-		};
-		7CF836C22081B45D0078E28B /* JPNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				7CF836C32081B45D0078E28B /* JPBaseAnimationTransition.h */,
-				7CF836C42081B45D0078E28B /* JPBaseAnimationTransition.m */,
-				7CF836C52081B45D0078E28B /* JPNavigationController.bundle */,
-				7CF836C62081B45D0078E28B /* JPNavigationController.h */,
-				7CF836C72081B45D0078E28B /* JPNavigationController.m */,
-				7CF836C82081B45D0078E28B /* JPNavigationControllerCompat.h */,
-				7CF836C92081B45D0078E28B /* JPNavigationControllerGestureRecognizer.h */,
-				7CF836CA2081B45D0078E28B /* JPNavigationControllerGestureRecognizer.m */,
-				7CF836CB2081B45D0078E28B /* JPNavigationControllerKit.h */,
-				7CF836CC2081B45D0078E28B /* JPNavigationControllerProtocol.h */,
-				7CF836CD2081B45D0078E28B /* JPNavigationControllerTransition.h */,
-				7CF836CE2081B45D0078E28B /* JPNavigationControllerTransition.m */,
-				7CF836CF2081B45D0078E28B /* JPPushAnimationTransition.h */,
-				7CF836D02081B45D0078E28B /* JPPushAnimationTransition.m */,
-				7CF836D12081B45D0078E28B /* JPTransitionShadowView.h */,
-				7CF836D22081B45D0078E28B /* JPTransitionShadowView.m */,
-				7CF836D32081B45D0078E28B /* JPWarpNavigationController.h */,
-				7CF836D42081B45D0078E28B /* JPWarpNavigationController.m */,
-				7CF836D52081B45D0078E28B /* JPWarpViewController.h */,
-				7CF836D62081B45D0078E28B /* JPWarpViewController.m */,
-				7CF836D72081B45D0078E28B /* UIColor+ImageGenerate.h */,
-				7CF836D82081B45D0078E28B /* UIColor+ImageGenerate.m */,
-				7CF836D92081B45D0078E28B /* UINavigationBar+HitTest.h */,
-				7CF836DA2081B45D0078E28B /* UINavigationBar+HitTest.m */,
-				7CF836DB2081B45D0078E28B /* UINavigationController+FulllScreenPopPush.h */,
-				7CF836DC2081B45D0078E28B /* UIView+ScreenCapture.h */,
-				7CF836DD2081B45D0078E28B /* UIView+ScreenCapture.m */,
-				7CF836DE2081B45D0078E28B /* UIViewController+ViewControllers.h */,
-				7CF836DF2081B45D0078E28B /* UIViewController+ViewControllers.m */,
-			);
-			path = JPNavigationController;
 			sourceTree = "<group>";
 		};
 		7CF837042081D4B60078E28B /* FDStackView */ = {
@@ -805,21 +710,14 @@
 			files = (
 				7CF836A92081B4200078E28B /* JPVideoPlayerCache.h in Headers */,
 				7CF836BA2081B4200078E28B /* JPVideoPlayerSupportUtils.h in Headers */,
-				7CF836F92081B45D0078E28B /* UIView+ScreenCapture.h in Headers */,
-				7CF836E92081B45D0078E28B /* JPNavigationControllerProtocol.h in Headers */,
-				7CF836EA2081B45D0078E28B /* JPNavigationControllerTransition.h in Headers */,
 				7CF836AD2081B4200078E28B /* JPVideoPlayerCachePath.h in Headers */,
 				7CF836A72081B4200078E28B /* JPVideoPlayer.h in Headers */,
 				7CF836BE2081B4200078E28B /* UITableViewCell+WebVideoCache.h in Headers */,
-				7CF836F42081B45D0078E28B /* UIColor+ImageGenerate.h in Headers */,
 				7CF836BC2081B4200078E28B /* UITableView+WebVideoCache.h in Headers */,
 				7CF836AB2081B4200078E28B /* JPVideoPlayerCacheFile.h in Headers */,
 				7CF836B82081B4200078E28B /* JPVideoPlayerResourceLoader.h in Headers */,
 				7CF836A42081B4200078E28B /* JPResourceLoadingRequestTask.h in Headers */,
 				7CF836C02081B4200078E28B /* UIView+WebVideoCache.h in Headers */,
-				7CF836F02081B45D0078E28B /* JPWarpNavigationController.h in Headers */,
-				7CF836F82081B45D0078E28B /* UINavigationController+FulllScreenPopPush.h in Headers */,
-				7CF836E32081B45D0078E28B /* JPNavigationController.h in Headers */,
 				7CF837452081D4B70078E28B /* NSUserDefaults+DefaultValues.h in Headers */,
 				7CF837342081D4B70078E28B /* FDGapLayoutGuide.h in Headers */,
 				7CF837522081D4B70078E28B /* SDCollectionViewCell.h in Headers */,
@@ -886,16 +784,8 @@
 				7CF837562081D4B70078E28B /* UIView+SDExtension.h in Headers */,
 				7CF8374C2081D4B70078E28B /* TAAnimatedDotView.h in Headers */,
 				7CF837582081D4B70078E28B /* FCUUID.h in Headers */,
-				7CF836E82081B45D0078E28B /* JPNavigationControllerKit.h in Headers */,
-				7CF836EE2081B45D0078E28B /* JPTransitionShadowView.h in Headers */,
-				7CF836F22081B45D0078E28B /* JPWarpViewController.h in Headers */,
-				7CF836EC2081B45D0078E28B /* JPPushAnimationTransition.h in Headers */,
-				7CF836F62081B45D0078E28B /* UINavigationBar+HitTest.h in Headers */,
 				7CF836B32081B4200078E28B /* JPVideoPlayerDownloader.h in Headers */,
-				7CF836E62081B45D0078E28B /* JPNavigationControllerGestureRecognizer.h in Headers */,
 				7CF836AF2081B4200078E28B /* JPVideoPlayerCompat.h in Headers */,
-				7CF836E52081B45D0078E28B /* JPNavigationControllerCompat.h in Headers */,
-				7CF836FB2081B45D0078E28B /* UIViewController+ViewControllers.h in Headers */,
 				7CF836B72081B4200078E28B /* JPVideoPlayerProtocol.h in Headers */,
 				7CF05251208DC44E00613E60 /* ZHPopupView.h in Headers */,
 				7CF0524B208DC44E00613E60 /* UIColor+HexString.h in Headers */,
@@ -904,7 +794,6 @@
 				7CF836B12081B4200078E28B /* JPVideoPlayerControlViews.h in Headers */,
 				7CD807F42081AE6A00D398B8 /* MHObjCKit.h in Headers */,
 				7CF836B52081B4200078E28B /* JPVideoPlayerManager.h in Headers */,
-				7CF836E02081B45D0078E28B /* JPBaseAnimationTransition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -969,7 +858,6 @@
 			files = (
 				7CF836A62081B4200078E28B /* JPVideoPlayer.bundle in Resources */,
 				7C6CB3D5208846A200B352AE /* ZFPlayer.bundle in Resources */,
-				7CF836E22081B45D0078E28B /* JPNavigationController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1001,13 +889,11 @@
 			files = (
 				7CF836B22081B4200078E28B /* JPVideoPlayerControlViews.m in Sources */,
 				7C6CB3F0208846A200B352AE /* ASIInputStream.m in Sources */,
-				7CF836E42081B45D0078E28B /* JPNavigationController.m in Sources */,
 				7CF837412081D4B70078E28B /* FDStackViewLayoutArrangement.m in Sources */,
 				7CF836B42081B4200078E28B /* JPVideoPlayerDownloader.m in Sources */,
 				7C6CB3CE208846A200B352AE /* UIViewController+ZFPlayerRotation.m in Sources */,
 				7C6CB40A208846A200B352AE /* ASIS3BucketRequest.m in Sources */,
 				7C6CB3FB208846A200B352AE /* ASICloudFilesContainerRequest.m in Sources */,
-				7CF836FA2081B45D0078E28B /* UIView+ScreenCapture.m in Sources */,
 				7C6CB3F2208846A200B352AE /* ASINetworkQueue.m in Sources */,
 				7C6CB419208846A200B352AE /* ZFHttpRequest.m in Sources */,
 				7C6CB3F5208846A200B352AE /* ASIWebPageRequest.m in Sources */,
@@ -1018,12 +904,8 @@
 				7CF836B02081B4200078E28B /* JPVideoPlayerCompat.m in Sources */,
 				7C6CB3C6208846A200B352AE /* ASValuePopUpView.m in Sources */,
 				7C6CB403208846A200B352AE /* ASICloudFilesRequest.m in Sources */,
-				7CF836F32081B45D0078E28B /* JPWarpViewController.m in Sources */,
-				7CF836EB2081B45D0078E28B /* JPNavigationControllerTransition.m in Sources */,
 				7CF836A82081B4200078E28B /* JPVideoPlayer.m in Sources */,
 				7C6CB3DD208846A200B352AE /* ZFPlayerView.m in Sources */,
-				7CF836F72081B45D0078E28B /* UINavigationBar+HitTest.m in Sources */,
-				7CF836F52081B45D0078E28B /* UIColor+ImageGenerate.m in Sources */,
 				7C6CB40E208846A200B352AE /* ASIS3Request.m in Sources */,
 				7CF837592081D4B70078E28B /* FCUUID.m in Sources */,
 				7C6CB3D0208846A200B352AE /* UIWindow+CurrentViewController.m in Sources */,
@@ -1037,7 +919,6 @@
 				7CF837572081D4B70078E28B /* UIView+SDExtension.m in Sources */,
 				7C6CB3DF208846A200B352AE /* Reachability.m in Sources */,
 				7C6CB3F7208846A200B352AE /* ASICloudFilesCDNRequest.m in Sources */,
-				7CF836F12081B45D0078E28B /* JPWarpNavigationController.m in Sources */,
 				7C6CB3DB208846A200B352AE /* ZFPlayerModel.m in Sources */,
 				7CF836AC2081B4200078E28B /* JPVideoPlayerCacheFile.m in Sources */,
 				7CF05252208DC44E00613E60 /* ZHPopupView.m in Sources */,
@@ -1046,7 +927,6 @@
 				7CF837432081D4B70078E28B /* FDTransformLayer.m in Sources */,
 				7CF836B62081B4200078E28B /* JPVideoPlayerManager.m in Sources */,
 				7C6CB3D4208846A200B352AE /* ZFBrightnessView.m in Sources */,
-				7CF836EF2081B45D0078E28B /* JPTransitionShadowView.m in Sources */,
 				7CF8373D2081D4B70078E28B /* FDStackViewDistributionLayoutArrangement.m in Sources */,
 				7CF837492081D4B70078E28B /* NSTEasyJSON.m in Sources */,
 				7CF837462081D4B70078E28B /* NSUserDefaults+DefaultValues.m in Sources */,
@@ -1074,10 +954,7 @@
 				7CF836BB2081B4200078E28B /* JPVideoPlayerSupportUtils.m in Sources */,
 				7C6CB415208846A200B352AE /* ZFDownloadManager.m in Sources */,
 				7CF836AA2081B4200078E28B /* JPVideoPlayerCache.m in Sources */,
-				7CF836FC2081B45D0078E28B /* UIViewController+ViewControllers.m in Sources */,
 				7C6CB3FF208846A200B352AE /* ASICloudFilesObject.m in Sources */,
-				7CF836E12081B45D0078E28B /* JPBaseAnimationTransition.m in Sources */,
-				7CF836ED2081B45D0078E28B /* JPPushAnimationTransition.m in Sources */,
 				7C6CB3C8208846A200B352AE /* ASValueTrackingSlider.m in Sources */,
 				7CF837512081D4B70078E28B /* TAPageControl.m in Sources */,
 				7CF836BD2081B4200078E28B /* UITableView+WebVideoCache.m in Sources */,
@@ -1086,7 +963,6 @@
 				7CF836BF2081B4200078E28B /* UITableViewCell+WebVideoCache.m in Sources */,
 				7C6CB410208846A200B352AE /* ASIS3ServiceRequest.m in Sources */,
 				7C6CB408208846A200B352AE /* ASIS3BucketObject.m in Sources */,
-				7CF836E72081B45D0078E28B /* JPNavigationControllerGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

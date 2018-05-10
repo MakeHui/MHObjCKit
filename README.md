@@ -36,11 +36,17 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v1.3.0
+
+- [MakeHui/NSTEasyJSON](https://github.com/MakeHui/NSTEasyJSON)
+- ~~[bernikowich/NSTEasyJSON](https://github.com/bernikowich/NSTEasyJSON)~~
+- ~~[newyjp/JPNavigationController](https://github.com/newyjp/JPNavigationController)~~
+
 ### v1.2.0
 
 - [zhhlmr/ZHPopupView](https://github.com/zhhlmr/ZHPopupView)
 - ~~[forkingdog/FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)~~
-- 
+
 ### v1.1.0
 
 - [paytronix/ASIHTTPRequest](https://github.com/paytronix/ASIHTTPRequest)
@@ -54,9 +60,9 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 - [forkingdog/FDStackView](https://github.com/forkingdog/FDStackView)
 - [fabiocaccamo/FCUUID](https://github.com/fabiocaccamo/FCUUID)
 - [gsdios/SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView)
-- [bernikowich/NSTEasyJSON](https://github.com/bernikowich/NSTEasyJSON)
+- ~~[bernikowich/NSTEasyJSON](https://github.com/bernikowich/NSTEasyJSON)~~
 - [danielgindi/NSUserDefaults-DefaultValues](https://github.com/danielgindi/NSUserDefaults-DefaultValues)
-- [newyjp/JPNavigationController](https://github.com/newyjp/JPNavigationController)
+- ~~[newyjp/JPNavigationController](https://github.com/newyjp/JPNavigationController)~~
 - [newyjp/JPVideoPlayer](https://github.com/newyjp/JPVideoPlayer)
 - ~~[forkingdog/FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)~~
 

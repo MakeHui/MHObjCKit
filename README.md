@@ -36,6 +36,11 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v1.4.0
+
+- [Flipboard/FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)
+- [ko1o/PYPhotoBrowser](https://github.com/ko1o/PYPhotoBrowser)
+
 ### v1.3.0
 
 - [MakeHui/NSTEasyJSON](https://github.com/MakeHui/NSTEasyJSON)

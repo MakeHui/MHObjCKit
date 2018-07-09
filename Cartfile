@@ -1,3 +1,4 @@
 github "kishikawakatsumi/UICKeyChainStore"
 github "SnapKit/Masonry"
 github "rs/SDWebImage"
+github "jdg/MBProgressHUD"

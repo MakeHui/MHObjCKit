@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		7C11AEB020F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEAE20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m */; };
 		7C11AEB120F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEAF20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEB320F300AC00031863 /* RecordAudio.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C11AEC220F300AC00031863 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEB420F300AC00031863 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEC320F300AC00031863 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEB720F300AC00031863 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEC420F300AC00031863 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEB820F300AC00031863 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEC520F300AC00031863 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEBA20F300AC00031863 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEC620F300AC00031863 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEBB20F300AC00031863 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEC720F300AC00031863 /* RecordAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEBC20F300AC00031863 /* RecordAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEC820F300AC00031863 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C11AEBE20F300AC00031863 /* libopencore-amrwb.a */; };
+		7C11AEC920F300AC00031863 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C11AEBF20F300AC00031863 /* libopencore-amrnb.a */; };
+		7C11AECA20F300AC00031863 /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEC020F300AC00031863 /* amrFileCodec.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7C37C17720EF837100FAFFED /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C37C17620EF837100FAFFED /* SDWebImage.framework */; };
 		7C6CB3C5208846A200B352AE /* ASValuePopUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6CB366208846A100B352AE /* ASValuePopUpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C6CB3C6208846A200B352AE /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CB367208846A100B352AE /* ASValuePopUpView.m */; };
@@ -213,6 +223,16 @@
 /* Begin PBXFileReference section */
 		7C11AEAE20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		7C11AEAF20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		7C11AEB320F300AC00031863 /* RecordAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordAudio.m; sourceTree = "<group>"; };
+		7C11AEB420F300AC00031863 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		7C11AEB720F300AC00031863 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		7C11AEB820F300AC00031863 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		7C11AEBA20F300AC00031863 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		7C11AEBB20F300AC00031863 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		7C11AEBC20F300AC00031863 /* RecordAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordAudio.h; sourceTree = "<group>"; };
+		7C11AEBE20F300AC00031863 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		7C11AEBF20F300AC00031863 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		7C11AEC020F300AC00031863 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
 		7C37C17620EF837100FAFFED /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		7C6CB366208846A100B352AE /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
 		7C6CB367208846A100B352AE /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
@@ -425,6 +445,8 @@
 				7C8C9A5820EF7B2700D2C041 /* MBProgressHUD.framework in Frameworks */,
 				7C6CB4202088478D00B352AE /* Masonry.framework in Frameworks */,
 				7CF8375F2081D6EF0078E28B /* UICKeyChainStore.framework in Frameworks */,
+				7C11AEC920F300AC00031863 /* libopencore-amrnb.a in Frameworks */,
+				7C11AEC820F300AC00031863 /* libopencore-amrwb.a in Frameworks */,
 				7C6CB41D2088471300B352AE /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +461,55 @@
 				7C11AEAF20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h */,
 			);
 			path = ZFNavigationController;
+			sourceTree = "<group>";
+		};
+		7C11AEB220F300AC00031863 /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AEB520F300AC00031863 /* include */,
+				7C11AEBD20F300AC00031863 /* lib */,
+				7C11AEBC20F300AC00031863 /* RecordAudio.h */,
+				7C11AEB320F300AC00031863 /* RecordAudio.m */,
+				7C11AEB420F300AC00031863 /* amrFileCodec.h */,
+				7C11AEC020F300AC00031863 /* amrFileCodec.m */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
+		7C11AEB520F300AC00031863 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AEB620F300AC00031863 /* opencore-amrwb */,
+				7C11AEB920F300AC00031863 /* opencore-amrnb */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7C11AEB620F300AC00031863 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AEB720F300AC00031863 /* if_rom.h */,
+				7C11AEB820F300AC00031863 /* dec_if.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		7C11AEB920F300AC00031863 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AEBA20F300AC00031863 /* interf_dec.h */,
+				7C11AEBB20F300AC00031863 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		7C11AEBD20F300AC00031863 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AEBE20F300AC00031863 /* libopencore-amrwb.a */,
+				7C11AEBF20F300AC00031863 /* libopencore-amrnb.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		7C6CB365208846A100B352AE /* ZFPlayer */ = {
@@ -706,6 +777,7 @@
 				7CF837152081D4B60078E28B /* NSUserDefaults-DefaultValues */,
 				7CF8371D2081D4B60078E28B /* SDCycleScrollView */,
 				7CF836852081B41F0078E28B /* JPVideoPlayer */,
+				7C11AEB220F300AC00031863 /* arm */,
 				7CD807F22081AE6A00D398B8 /* MHObjCKit.h */,
 				7CD807F32081AE6A00D398B8 /* Info.plist */,
 			);
@@ -960,6 +1032,12 @@
 				7CF836B72081B4200078E28B /* JPVideoPlayerProtocol.h in Headers */,
 				7CF05251208DC44E00613E60 /* ZHPopupView.h in Headers */,
 				7CF0524B208DC44E00613E60 /* UIColor+HexString.h in Headers */,
+				7C11AEC420F300AC00031863 /* dec_if.h in Headers */,
+				7C11AEC620F300AC00031863 /* interf_enc.h in Headers */,
+				7C11AEC320F300AC00031863 /* if_rom.h in Headers */,
+				7C11AEC220F300AC00031863 /* amrFileCodec.h in Headers */,
+				7C11AEC520F300AC00031863 /* interf_dec.h in Headers */,
+				7C11AEC720F300AC00031863 /* RecordAudio.h in Headers */,
 				7CF0524F208DC44E00613E60 /* UIView+DropShadow.h in Headers */,
 				7CF0524D208DC44E00613E60 /* UIImageEffects.h in Headers */,
 				7CF836B12081B4200078E28B /* JPVideoPlayerControlViews.h in Headers */,
@@ -1111,6 +1189,7 @@
 				7CF0524C208DC44E00613E60 /* UIColor+HexString.m in Sources */,
 				7C8C9A3F20EF77EB00D2C041 /* PYPhotosPreviewController.m in Sources */,
 				7C6CB3CC208846A200B352AE /* UIView+CustomControlView.m in Sources */,
+				7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */,
 				7CF837532081D4B70078E28B /* SDCollectionViewCell.m in Sources */,
 				7CF8374B2081D4B70078E28B /* TAAbstractDotView.m in Sources */,
 				7CF836B92081B4200078E28B /* JPVideoPlayerResourceLoader.m in Sources */,
@@ -1131,6 +1210,7 @@
 				7C6CB3EC208846A200B352AE /* ASIHTTPRequest.m in Sources */,
 				7C6CB3EA208846A200B352AE /* ASIFormDataRequest.m in Sources */,
 				7C8C9A4A20EF77EB00D2C041 /* PYPhotoView.m in Sources */,
+				7C11AECA20F300AC00031863 /* amrFileCodec.m in Sources */,
 				7CF8374F2081D4B70078E28B /* TADotView.m in Sources */,
 				7C6CB3FD208846A200B352AE /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
 				7C8C9A3720EF77EA00D2C041 /* PYPhotoBrowserConst.m in Sources */,
@@ -1275,7 +1355,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1285,6 +1365,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MHObjCKit/arm/lib",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huyaohui.MHObjCKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1303,7 +1387,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1313,6 +1397,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MHObjCKit/arm/lib",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huyaohui.MHObjCKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

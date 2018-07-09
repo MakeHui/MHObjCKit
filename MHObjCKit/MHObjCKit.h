@@ -145,5 +145,8 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/PYPhotoView.h>
 #import <MHObjCKit/PYPhotosView.h>
 
+// https://github.com/guange2015/ios-amr (v1.3 eff9391)
+#import <MHObjCKit/RecordAudio.h>
+
 
 

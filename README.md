@@ -36,6 +36,10 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v1.5.0
+
+- [zhifenx/JFCitySelector(master 6b72c63)](https://github.com/zhifenx/JFCitySelector)
+
 ### v1.4.1
 
 - [guange2015/ios-amr(v1.3 eff9391)](https://github.com/guange2015/ios-amr)

@@ -19,6 +19,30 @@
 		7C11AEC820F300AC00031863 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C11AEBE20F300AC00031863 /* libopencore-amrwb.a */; };
 		7C11AEC920F300AC00031863 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C11AEBF20F300AC00031863 /* libopencore-amrnb.a */; };
 		7C11AECA20F300AC00031863 /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEC020F300AC00031863 /* amrFileCodec.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C11AEEE20F5E85200031863 /* JFCityCollectionFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AED820F5E85200031863 /* JFCityCollectionFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEEF20F5E85200031863 /* JFCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AED920F5E85200031863 /* JFCityCollectionViewCell.m */; };
+		7C11AEF020F5E85200031863 /* JFLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEDB20F5E85200031863 /* JFLocation.m */; };
+		7C11AEF120F5E85200031863 /* JFLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEDC20F5E85200031863 /* JFLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEF220F5E85200031863 /* JFAreaDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEDE20F5E85200031863 /* JFAreaDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEF320F5E85200031863 /* JFAreaDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEDF20F5E85200031863 /* JFAreaDataManager.m */; };
+		7C11AEF420F5E85200031863 /* JFButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEE020F5E85200031863 /* JFButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEF520F5E85200031863 /* JFCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEE120F5E85200031863 /* JFCityHeaderView.m */; };
+		7C11AEF620F5E85200031863 /* JFSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEE220F5E85200031863 /* JFSearchView.m */; };
+		7C11AEF720F5E85200031863 /* JFCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEE320F5E85200031863 /* JFCityViewController.m */; };
+		7C11AEF820F5E85200031863 /* JFCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEE420F5E85200031863 /* JFCityTableViewCell.m */; };
+		7C11AEF920F5E85200031863 /* JFCityCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEE520F5E85200031863 /* JFCityCollectionFlowLayout.m */; };
+		7C11AEFA20F5E85200031863 /* JFCityCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEE620F5E85200031863 /* JFCityCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEFB20F5E85200031863 /* JFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEE720F5E85200031863 /* JFButton.m */; };
+		7C11AEFC20F5E85200031863 /* JFCityViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEE820F5E85200031863 /* JFCityViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEFD20F5E85200031863 /* JFCityTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEE920F5E85200031863 /* JFCityTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AEFE20F5E85200031863 /* shop_area.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7C11AEEB20F5E85200031863 /* shop_area.sqlite */; };
+		7C11AEFF20F5E85200031863 /* JFSearchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEEC20F5E85200031863 /* JFSearchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AF0020F5E85200031863 /* JFCityHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEED20F5E85200031863 /* JFCityHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C11AF0220F5E95200031863 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C11AF0120F5E95200031863 /* FMDB.framework */; };
+		7C11AF0520F5F32700031863 /* down_arrow_icon1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C11AF0320F5F32700031863 /* down_arrow_icon1@3x.png */; };
+		7C11AF0620F5F32700031863 /* down_arrow_icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C11AF0420F5F32700031863 /* down_arrow_icon1@2x.png */; };
+		7C11AF0920F5F33200031863 /* down_arrow_icon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C11AF0720F5F33200031863 /* down_arrow_icon2@3x.png */; };
+		7C11AF0A20F5F33200031863 /* down_arrow_icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C11AF0820F5F33200031863 /* down_arrow_icon2@2x.png */; };
 		7C37C17720EF837100FAFFED /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C37C17620EF837100FAFFED /* SDWebImage.framework */; };
 		7C6CB3C5208846A200B352AE /* ASValuePopUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6CB366208846A100B352AE /* ASValuePopUpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C6CB3C6208846A200B352AE /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CB367208846A100B352AE /* ASValuePopUpView.m */; };
@@ -233,6 +257,30 @@
 		7C11AEBE20F300AC00031863 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
 		7C11AEBF20F300AC00031863 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		7C11AEC020F300AC00031863 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
+		7C11AED820F5E85200031863 /* JFCityCollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityCollectionFlowLayout.h; sourceTree = "<group>"; };
+		7C11AED920F5E85200031863 /* JFCityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityCollectionViewCell.m; sourceTree = "<group>"; };
+		7C11AEDB20F5E85200031863 /* JFLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLocation.m; sourceTree = "<group>"; };
+		7C11AEDC20F5E85200031863 /* JFLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLocation.h; sourceTree = "<group>"; };
+		7C11AEDE20F5E85200031863 /* JFAreaDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAreaDataManager.h; sourceTree = "<group>"; };
+		7C11AEDF20F5E85200031863 /* JFAreaDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAreaDataManager.m; sourceTree = "<group>"; };
+		7C11AEE020F5E85200031863 /* JFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFButton.h; sourceTree = "<group>"; };
+		7C11AEE120F5E85200031863 /* JFCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityHeaderView.m; sourceTree = "<group>"; };
+		7C11AEE220F5E85200031863 /* JFSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSearchView.m; sourceTree = "<group>"; };
+		7C11AEE320F5E85200031863 /* JFCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityViewController.m; sourceTree = "<group>"; };
+		7C11AEE420F5E85200031863 /* JFCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityTableViewCell.m; sourceTree = "<group>"; };
+		7C11AEE520F5E85200031863 /* JFCityCollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityCollectionFlowLayout.m; sourceTree = "<group>"; };
+		7C11AEE620F5E85200031863 /* JFCityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityCollectionViewCell.h; sourceTree = "<group>"; };
+		7C11AEE720F5E85200031863 /* JFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFButton.m; sourceTree = "<group>"; };
+		7C11AEE820F5E85200031863 /* JFCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityViewController.h; sourceTree = "<group>"; };
+		7C11AEE920F5E85200031863 /* JFCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityTableViewCell.h; sourceTree = "<group>"; };
+		7C11AEEB20F5E85200031863 /* shop_area.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = shop_area.sqlite; sourceTree = "<group>"; };
+		7C11AEEC20F5E85200031863 /* JFSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSearchView.h; sourceTree = "<group>"; };
+		7C11AEED20F5E85200031863 /* JFCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityHeaderView.h; sourceTree = "<group>"; };
+		7C11AF0120F5E95200031863 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = Carthage/Build/iOS/FMDB.framework; sourceTree = "<group>"; };
+		7C11AF0320F5F32700031863 /* down_arrow_icon1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow_icon1@3x.png"; sourceTree = "<group>"; };
+		7C11AF0420F5F32700031863 /* down_arrow_icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow_icon1@2x.png"; sourceTree = "<group>"; };
+		7C11AF0720F5F33200031863 /* down_arrow_icon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow_icon2@3x.png"; sourceTree = "<group>"; };
+		7C11AF0820F5F33200031863 /* down_arrow_icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow_icon2@2x.png"; sourceTree = "<group>"; };
 		7C37C17620EF837100FAFFED /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		7C6CB366208846A100B352AE /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
 		7C6CB367208846A100B352AE /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
@@ -441,6 +489,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C11AF0220F5E95200031863 /* FMDB.framework in Frameworks */,
 				7C37C17720EF837100FAFFED /* SDWebImage.framework in Frameworks */,
 				7C8C9A5820EF7B2700D2C041 /* MBProgressHUD.framework in Frameworks */,
 				7C6CB4202088478D00B352AE /* Masonry.framework in Frameworks */,
@@ -510,6 +559,60 @@
 				7C11AEBF20F300AC00031863 /* libopencore-amrnb.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		7C11AED720F5E85200031863 /* JFCityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AED820F5E85200031863 /* JFCityCollectionFlowLayout.h */,
+				7C11AED920F5E85200031863 /* JFCityCollectionViewCell.m */,
+				7C11AEDA20F5E85200031863 /* Location */,
+				7C11AEDD20F5E85200031863 /* AreaDataManager */,
+				7C11AEE020F5E85200031863 /* JFButton.h */,
+				7C11AEE120F5E85200031863 /* JFCityHeaderView.m */,
+				7C11AEE220F5E85200031863 /* JFSearchView.m */,
+				7C11AEE320F5E85200031863 /* JFCityViewController.m */,
+				7C11AEE420F5E85200031863 /* JFCityTableViewCell.m */,
+				7C11AEE520F5E85200031863 /* JFCityCollectionFlowLayout.m */,
+				7C11AEE620F5E85200031863 /* JFCityCollectionViewCell.h */,
+				7C11AEE720F5E85200031863 /* JFButton.m */,
+				7C11AEE820F5E85200031863 /* JFCityViewController.h */,
+				7C11AEE920F5E85200031863 /* JFCityTableViewCell.h */,
+				7C11AEEA20F5E85200031863 /* AreaDB */,
+				7C11AEEC20F5E85200031863 /* JFSearchView.h */,
+				7C11AEED20F5E85200031863 /* JFCityHeaderView.h */,
+			);
+			path = JFCityViewController;
+			sourceTree = "<group>";
+		};
+		7C11AEDA20F5E85200031863 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AEDB20F5E85200031863 /* JFLocation.m */,
+				7C11AEDC20F5E85200031863 /* JFLocation.h */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		7C11AEDD20F5E85200031863 /* AreaDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AEDE20F5E85200031863 /* JFAreaDataManager.h */,
+				7C11AEDF20F5E85200031863 /* JFAreaDataManager.m */,
+			);
+			path = AreaDataManager;
+			sourceTree = "<group>";
+		};
+		7C11AEEA20F5E85200031863 /* AreaDB */ = {
+			isa = PBXGroup;
+			children = (
+				7C11AF0820F5F33200031863 /* down_arrow_icon2@2x.png */,
+				7C11AF0720F5F33200031863 /* down_arrow_icon2@3x.png */,
+				7C11AF0420F5F32700031863 /* down_arrow_icon1@2x.png */,
+				7C11AF0320F5F32700031863 /* down_arrow_icon1@3x.png */,
+				7C11AEEB20F5E85200031863 /* shop_area.sqlite */,
+			);
+			path = AreaDB;
 			sourceTree = "<group>";
 		};
 		7C6CB365208846A100B352AE /* ZFPlayer */ = {
@@ -763,6 +866,7 @@
 		7CD807F12081AE6A00D398B8 /* MHObjCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7C11AED720F5E85200031863 /* JFCityViewController */,
 				7C8C9A4C20EF780100D2C041 /* DACircularProgress */,
 				7C8C9A0E20EF77EA00D2C041 /* PYPhotoBrowser */,
 				7CF05242208DC44E00613E60 /* ZHPopupView */,
@@ -920,6 +1024,7 @@
 		7CF8375D2081D6EE0078E28B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C11AF0120F5E95200031863 /* FMDB.framework */,
 				7C37C17620EF837100FAFFED /* SDWebImage.framework */,
 				7C8C9A5720EF7B2700D2C041 /* MBProgressHUD.framework */,
 				7C6CB41E2088478D00B352AE /* Masonry.framework */,
@@ -1037,6 +1142,15 @@
 				7C11AEC320F300AC00031863 /* if_rom.h in Headers */,
 				7C11AEC220F300AC00031863 /* amrFileCodec.h in Headers */,
 				7C11AEC520F300AC00031863 /* interf_dec.h in Headers */,
+				7C11AEFA20F5E85200031863 /* JFCityCollectionViewCell.h in Headers */,
+				7C11AEFC20F5E85200031863 /* JFCityViewController.h in Headers */,
+				7C11AF0020F5E85200031863 /* JFCityHeaderView.h in Headers */,
+				7C11AEFD20F5E85200031863 /* JFCityTableViewCell.h in Headers */,
+				7C11AEFF20F5E85200031863 /* JFSearchView.h in Headers */,
+				7C11AEEE20F5E85200031863 /* JFCityCollectionFlowLayout.h in Headers */,
+				7C11AEF220F5E85200031863 /* JFAreaDataManager.h in Headers */,
+				7C11AEF120F5E85200031863 /* JFLocation.h in Headers */,
+				7C11AEF420F5E85200031863 /* JFButton.h in Headers */,
 				7C11AEC720F300AC00031863 /* RecordAudio.h in Headers */,
 				7CF0524F208DC44E00613E60 /* UIView+DropShadow.h in Headers */,
 				7CF0524D208DC44E00613E60 /* UIImageEffects.h in Headers */,
@@ -1106,9 +1220,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C11AF0A20F5F33200031863 /* down_arrow_icon2@2x.png in Resources */,
 				7CF836A62081B4200078E28B /* JPVideoPlayer.bundle in Resources */,
 				7C8C9A4B20EF77EB00D2C041 /* PYPhotosView.bundle in Resources */,
+				7C11AF0520F5F32700031863 /* down_arrow_icon1@3x.png in Resources */,
+				7C11AF0620F5F32700031863 /* down_arrow_icon1@2x.png in Resources */,
+				7C11AEFE20F5E85200031863 /* shop_area.sqlite in Resources */,
 				7C6CB3D5208846A200B352AE /* ZFPlayer.bundle in Resources */,
+				7C11AF0920F5F33200031863 /* down_arrow_icon2@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,8 +1270,10 @@
 				7CF837372081D4B70078E28B /* FDLayoutSpacer.m in Sources */,
 				7CF0524E208DC44E00613E60 /* UIImageEffects.m in Sources */,
 				7CF836B02081B4200078E28B /* JPVideoPlayerCompat.m in Sources */,
+				7C11AEF020F5E85200031863 /* JFLocation.m in Sources */,
 				7C6CB3C6208846A200B352AE /* ASValuePopUpView.m in Sources */,
 				7C8C9A4220EF77EB00D2C041 /* PYPhoto.m in Sources */,
+				7C11AEF620F5E85200031863 /* JFSearchView.m in Sources */,
 				7C8C9A4920EF77EB00D2C041 /* PYPhotoCell.m in Sources */,
 				7C6CB403208846A200B352AE /* ASICloudFilesRequest.m in Sources */,
 				7CF836A82081B4200078E28B /* JPVideoPlayer.m in Sources */,
@@ -1181,8 +1302,10 @@
 				7CF837432081D4B70078E28B /* FDTransformLayer.m in Sources */,
 				7CF836B62081B4200078E28B /* JPVideoPlayerManager.m in Sources */,
 				7C6CB3D4208846A200B352AE /* ZFBrightnessView.m in Sources */,
+				7C11AEFB20F5E85200031863 /* JFButton.m in Sources */,
 				7C8C9A5120EF780100D2C041 /* DALabeledCircularProgressView.m in Sources */,
 				7CF8373D2081D4B70078E28B /* FDStackViewDistributionLayoutArrangement.m in Sources */,
+				7C11AEEF20F5E85200031863 /* JFCityCollectionViewCell.m in Sources */,
 				7CF837492081D4B70078E28B /* NSTEasyJSON.m in Sources */,
 				7CF837462081D4B70078E28B /* NSUserDefaults+DefaultValues.m in Sources */,
 				7C6CB3E8208846A200B352AE /* ASIDownloadCache.m in Sources */,
@@ -1192,6 +1315,7 @@
 				7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */,
 				7CF837532081D4B70078E28B /* SDCollectionViewCell.m in Sources */,
 				7CF8374B2081D4B70078E28B /* TAAbstractDotView.m in Sources */,
+				7C11AEF920F5E85200031863 /* JFCityCollectionFlowLayout.m in Sources */,
 				7CF836B92081B4200078E28B /* JPVideoPlayerResourceLoader.m in Sources */,
 				7CF837392081D4B70078E28B /* FDStackView.m in Sources */,
 				7CF8373B2081D4B70078E28B /* FDStackViewAlignmentLayoutArrangement.m in Sources */,
@@ -1210,12 +1334,15 @@
 				7C6CB3EC208846A200B352AE /* ASIHTTPRequest.m in Sources */,
 				7C6CB3EA208846A200B352AE /* ASIFormDataRequest.m in Sources */,
 				7C8C9A4A20EF77EB00D2C041 /* PYPhotoView.m in Sources */,
+				7C11AEF720F5E85200031863 /* JFCityViewController.m in Sources */,
+				7C11AEF320F5E85200031863 /* JFAreaDataManager.m in Sources */,
 				7C11AECA20F300AC00031863 /* amrFileCodec.m in Sources */,
 				7CF8374F2081D4B70078E28B /* TADotView.m in Sources */,
 				7C6CB3FD208846A200B352AE /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
 				7C8C9A3720EF77EA00D2C041 /* PYPhotoBrowserConst.m in Sources */,
 				7CF836BB2081B4200078E28B /* JPVideoPlayerSupportUtils.m in Sources */,
 				7C6CB415208846A200B352AE /* ZFDownloadManager.m in Sources */,
+				7C11AEF520F5E85200031863 /* JFCityHeaderView.m in Sources */,
 				7CF836AA2081B4200078E28B /* JPVideoPlayerCache.m in Sources */,
 				7C6CB3FF208846A200B352AE /* ASICloudFilesObject.m in Sources */,
 				7C6CB3C8208846A200B352AE /* ASValueTrackingSlider.m in Sources */,
@@ -1226,6 +1353,7 @@
 				7CF836C12081B4200078E28B /* UIView+WebVideoCache.m in Sources */,
 				7C8C9A5220EF780100D2C041 /* DACircularProgressView.m in Sources */,
 				7CF836BF2081B4200078E28B /* UITableViewCell+WebVideoCache.m in Sources */,
+				7C11AEF820F5E85200031863 /* JFCityTableViewCell.m in Sources */,
 				7C6CB410208846A200B352AE /* ASIS3ServiceRequest.m in Sources */,
 				7C8C9A4720EF77EB00D2C041 /* PYPhotoBrowseView.m in Sources */,
 				7C6CB408208846A200B352AE /* ASIS3BucketObject.m in Sources */,

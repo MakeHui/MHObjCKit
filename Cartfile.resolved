@@ -1,4 +1,5 @@
 github "SnapKit/Masonry" "v1.1.0"
+github "ccgus/fmdb" "2.7.4"
 github "jdg/MBProgressHUD" "1.1.0"
 github "kishikawakatsumi/UICKeyChainStore" "v2.1.1"
 github "rs/SDWebImage" "4.4.1"

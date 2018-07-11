@@ -148,5 +148,15 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 // https://github.com/guange2015/ios-amr (v1.3 eff9391)
 #import <MHObjCKit/RecordAudio.h>
 
+// https://github.com/zhifenx/JFCitySelector (master 6b72c63)
+#import <MHObjCKit/JFAreaDataManager.h>
+#import <MHObjCKit/JFButton.h>
+#import <MHObjCKit/JFCityCollectionFlowLayout.h>
+#import <MHObjCKit/JFCityCollectionViewCell.h>
+#import <MHObjCKit/JFCityHeaderView.h>
+#import <MHObjCKit/JFCityTableViewCell.h>
+#import <MHObjCKit/JFCityViewController.h>
+#import <MHObjCKit/JFSearchView.h>
+#import <MHObjCKit/JFLocation.h>
 
 

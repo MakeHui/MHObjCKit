@@ -159,4 +159,12 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/JFSearchView.h>
 #import <MHObjCKit/JFLocation.h>
 
+// https://github.com/iTofu/LCActionSheet (v3.5.0)
+#import <MHObjCKit/LCActionSheet.h>
+#import <MHObjCKit/LCActionSheetCell.h>
+#import <MHObjCKit/LCActionSheetConfig.h>
+#import <MHObjCKit/LCActionSheetViewController.h>
+#import <MHObjCKit/UIDevice+LCActionSheet.h>
+#import <MHObjCKit/UIImage+LCActionSheet.h>
+
 

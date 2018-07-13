@@ -131,6 +131,18 @@
 		7C6CB419208846A200B352AE /* ZFHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CB3C1208846A200B352AE /* ZFHttpRequest.m */; };
 		7C6CB41D2088471300B352AE /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6CB41C2088471300B352AE /* libxml2.tbd */; };
 		7C6CB4202088478D00B352AE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6CB41E2088478D00B352AE /* Masonry.framework */; };
+		7C7218D120F855C40081674A /* UIDevice+LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7218C520F855C40081674A /* UIDevice+LCActionSheet.m */; };
+		7C7218D220F855C40081674A /* LCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7218C620F855C40081674A /* LCActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7218D320F855C40081674A /* LCActionSheetConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7218C720F855C40081674A /* LCActionSheetConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7218D420F855C40081674A /* LCActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7218C820F855C40081674A /* LCActionSheetViewController.m */; };
+		7C7218D520F855C40081674A /* LCActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7218C920F855C40081674A /* LCActionSheetCell.m */; };
+		7C7218D620F855C40081674A /* UIImage+LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7218CA20F855C40081674A /* UIImage+LCActionSheet.m */; };
+		7C7218D720F855C40081674A /* LCActionSheetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7218CB20F855C40081674A /* LCActionSheetConfig.m */; };
+		7C7218D820F855C40081674A /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7218CC20F855C40081674A /* LCActionSheet.m */; };
+		7C7218D920F855C40081674A /* UIDevice+LCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7218CD20F855C40081674A /* UIDevice+LCActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7218DA20F855C40081674A /* LCActionSheetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7218CE20F855C40081674A /* LCActionSheetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7218DB20F855C40081674A /* LCActionSheetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7218CF20F855C40081674A /* LCActionSheetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7218DC20F855C40081674A /* UIImage+LCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7218D020F855C40081674A /* UIImage+LCActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C8C9A3020EF77EA00D2C041 /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C9A1020EF77EA00D2C041 /* UIView+PYExtension.m */; };
 		7C8C9A3120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8C9A1120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C8C9A3220EF77EA00D2C041 /* UIView+PYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8C9A1220EF77EA00D2C041 /* UIView+PYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -369,6 +381,18 @@
 		7C6CB3C1208846A200B352AE /* ZFHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHttpRequest.m; sourceTree = "<group>"; };
 		7C6CB41C2088471300B352AE /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		7C6CB41E2088478D00B352AE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		7C7218C520F855C40081674A /* UIDevice+LCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LCActionSheet.m"; sourceTree = "<group>"; };
+		7C7218C620F855C40081674A /* LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheet.h; sourceTree = "<group>"; };
+		7C7218C720F855C40081674A /* LCActionSheetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheetConfig.h; sourceTree = "<group>"; };
+		7C7218C820F855C40081674A /* LCActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheetViewController.m; sourceTree = "<group>"; };
+		7C7218C920F855C40081674A /* LCActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheetCell.m; sourceTree = "<group>"; };
+		7C7218CA20F855C40081674A /* UIImage+LCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LCActionSheet.m"; sourceTree = "<group>"; };
+		7C7218CB20F855C40081674A /* LCActionSheetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheetConfig.m; sourceTree = "<group>"; };
+		7C7218CC20F855C40081674A /* LCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheet.m; sourceTree = "<group>"; };
+		7C7218CD20F855C40081674A /* UIDevice+LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LCActionSheet.h"; sourceTree = "<group>"; };
+		7C7218CE20F855C40081674A /* LCActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheetCell.h; sourceTree = "<group>"; };
+		7C7218CF20F855C40081674A /* LCActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheetViewController.h; sourceTree = "<group>"; };
+		7C7218D020F855C40081674A /* UIImage+LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LCActionSheet.h"; sourceTree = "<group>"; };
 		7C8C9A1020EF77EA00D2C041 /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
 		7C8C9A1120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+PYExtension.h"; sourceTree = "<group>"; };
 		7C8C9A1220EF77EA00D2C041 /* UIView+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYExtension.h"; sourceTree = "<group>"; };
@@ -760,6 +784,25 @@
 			path = ZFDownload;
 			sourceTree = "<group>";
 		};
+		7C7218C420F855C40081674A /* LCActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				7C7218C520F855C40081674A /* UIDevice+LCActionSheet.m */,
+				7C7218C620F855C40081674A /* LCActionSheet.h */,
+				7C7218C720F855C40081674A /* LCActionSheetConfig.h */,
+				7C7218C820F855C40081674A /* LCActionSheetViewController.m */,
+				7C7218C920F855C40081674A /* LCActionSheetCell.m */,
+				7C7218CA20F855C40081674A /* UIImage+LCActionSheet.m */,
+				7C7218CB20F855C40081674A /* LCActionSheetConfig.m */,
+				7C7218CC20F855C40081674A /* LCActionSheet.m */,
+				7C7218CD20F855C40081674A /* UIDevice+LCActionSheet.h */,
+				7C7218CE20F855C40081674A /* LCActionSheetCell.h */,
+				7C7218CF20F855C40081674A /* LCActionSheetViewController.h */,
+				7C7218D020F855C40081674A /* UIImage+LCActionSheet.h */,
+			);
+			path = LCActionSheet;
+			sourceTree = "<group>";
+		};
 		7C8C9A0E20EF77EA00D2C041 /* PYPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -866,6 +909,7 @@
 		7CD807F12081AE6A00D398B8 /* MHObjCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7C7218C420F855C40081674A /* LCActionSheet */,
 				7C11AED720F5E85200031863 /* JFCityViewController */,
 				7C8C9A4C20EF780100D2C041 /* DACircularProgress */,
 				7C8C9A0E20EF77EA00D2C041 /* PYPhotoBrowser */,
@@ -1152,6 +1196,12 @@
 				7C11AEF120F5E85200031863 /* JFLocation.h in Headers */,
 				7C11AEF420F5E85200031863 /* JFButton.h in Headers */,
 				7C11AEC720F300AC00031863 /* RecordAudio.h in Headers */,
+				7C7218DC20F855C40081674A /* UIImage+LCActionSheet.h in Headers */,
+				7C7218D320F855C40081674A /* LCActionSheetConfig.h in Headers */,
+				7C7218D220F855C40081674A /* LCActionSheet.h in Headers */,
+				7C7218DA20F855C40081674A /* LCActionSheetCell.h in Headers */,
+				7C7218DB20F855C40081674A /* LCActionSheetViewController.h in Headers */,
+				7C7218D920F855C40081674A /* UIDevice+LCActionSheet.h in Headers */,
 				7CF0524F208DC44E00613E60 /* UIView+DropShadow.h in Headers */,
 				7CF0524D208DC44E00613E60 /* UIImageEffects.h in Headers */,
 				7CF836B12081B4200078E28B /* JPVideoPlayerControlViews.h in Headers */,
@@ -1291,6 +1341,7 @@
 				7C6CB3E1208846A200B352AE /* ASIAuthenticationDialog.m in Sources */,
 				7CF837572081D4B70078E28B /* UIView+SDExtension.m in Sources */,
 				7C6CB3DF208846A200B352AE /* Reachability.m in Sources */,
+				7C7218D520F855C40081674A /* LCActionSheetCell.m in Sources */,
 				7C6CB3F7208846A200B352AE /* ASICloudFilesCDNRequest.m in Sources */,
 				7C6CB3DB208846A200B352AE /* ZFPlayerModel.m in Sources */,
 				7CF836AC2081B4200078E28B /* JPVideoPlayerCacheFile.m in Sources */,
@@ -1310,6 +1361,7 @@
 				7CF837462081D4B70078E28B /* NSUserDefaults+DefaultValues.m in Sources */,
 				7C6CB3E8208846A200B352AE /* ASIDownloadCache.m in Sources */,
 				7CF0524C208DC44E00613E60 /* UIColor+HexString.m in Sources */,
+				7C7218D620F855C40081674A /* UIImage+LCActionSheet.m in Sources */,
 				7C8C9A3F20EF77EB00D2C041 /* PYPhotosPreviewController.m in Sources */,
 				7C6CB3CC208846A200B352AE /* UIView+CustomControlView.m in Sources */,
 				7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */,
@@ -1339,21 +1391,25 @@
 				7C11AECA20F300AC00031863 /* amrFileCodec.m in Sources */,
 				7CF8374F2081D4B70078E28B /* TADotView.m in Sources */,
 				7C6CB3FD208846A200B352AE /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
+				7C7218D720F855C40081674A /* LCActionSheetConfig.m in Sources */,
 				7C8C9A3720EF77EA00D2C041 /* PYPhotoBrowserConst.m in Sources */,
 				7CF836BB2081B4200078E28B /* JPVideoPlayerSupportUtils.m in Sources */,
 				7C6CB415208846A200B352AE /* ZFDownloadManager.m in Sources */,
 				7C11AEF520F5E85200031863 /* JFCityHeaderView.m in Sources */,
 				7CF836AA2081B4200078E28B /* JPVideoPlayerCache.m in Sources */,
+				7C7218D820F855C40081674A /* LCActionSheet.m in Sources */,
 				7C6CB3FF208846A200B352AE /* ASICloudFilesObject.m in Sources */,
 				7C6CB3C8208846A200B352AE /* ASValueTrackingSlider.m in Sources */,
 				7CF837512081D4B70078E28B /* TAPageControl.m in Sources */,
 				7CF836BD2081B4200078E28B /* UITableView+WebVideoCache.m in Sources */,
+				7C7218D420F855C40081674A /* LCActionSheetViewController.m in Sources */,
 				7CF8374D2081D4B70078E28B /* TAAnimatedDotView.m in Sources */,
 				7C8C9A3D20EF77EB00D2C041 /* PYPhotosReaderController.m in Sources */,
 				7CF836C12081B4200078E28B /* UIView+WebVideoCache.m in Sources */,
 				7C8C9A5220EF780100D2C041 /* DACircularProgressView.m in Sources */,
 				7CF836BF2081B4200078E28B /* UITableViewCell+WebVideoCache.m in Sources */,
 				7C11AEF820F5E85200031863 /* JFCityTableViewCell.m in Sources */,
+				7C7218D120F855C40081674A /* UIDevice+LCActionSheet.m in Sources */,
 				7C6CB410208846A200B352AE /* ASIS3ServiceRequest.m in Sources */,
 				7C8C9A4720EF77EB00D2C041 /* PYPhotoBrowseView.m in Sources */,
 				7C6CB408208846A200B352AE /* ASIS3BucketObject.m in Sources */,

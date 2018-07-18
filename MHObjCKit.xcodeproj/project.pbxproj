@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57A1453220FEE95600ACC90E /* NSBundle+PYSearchExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1452420FEE95600ACC90E /* NSBundle+PYSearchExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A1453320FEE95600ACC90E /* UIColor+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1452520FEE95600ACC90E /* UIColor+PYSearchExtension.m */; };
+		57A1453420FEE95700ACC90E /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1452620FEE95600ACC90E /* PYSearchViewController.m */; };
+		57A1453520FEE95700ACC90E /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1452720FEE95600ACC90E /* PYSearchSuggestionViewController.m */; };
+		57A1453620FEE95700ACC90E /* UIView+PYSearchExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1452820FEE95600ACC90E /* UIView+PYSearchExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A1453720FEE95700ACC90E /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1452920FEE95600ACC90E /* PYSearchConst.m */; };
+		57A1453820FEE95700ACC90E /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57A1452A20FEE95600ACC90E /* PYSearch.bundle */; };
+		57A1453920FEE95700ACC90E /* NSBundle+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1452B20FEE95600ACC90E /* NSBundle+PYSearchExtension.m */; };
+		57A1453A20FEE95700ACC90E /* PYSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1452C20FEE95600ACC90E /* PYSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A1453B20FEE95700ACC90E /* PYSearchSuggestionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1452D20FEE95600ACC90E /* PYSearchSuggestionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A1453C20FEE95700ACC90E /* PYSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1452E20FEE95600ACC90E /* PYSearchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A1453D20FEE95700ACC90E /* UIColor+PYSearchExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1452F20FEE95600ACC90E /* UIColor+PYSearchExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A1453E20FEE95700ACC90E /* PYSearchConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1453020FEE95600ACC90E /* PYSearchConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A1453F20FEE95700ACC90E /* UIView+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1453120FEE95600ACC90E /* UIView+PYSearchExtension.m */; };
 		7C11AEB020F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEAE20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m */; };
 		7C11AEB120F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEAF20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEB320F300AC00031863 /* RecordAudio.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -257,6 +271,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57A1452420FEE95600ACC90E /* NSBundle+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+PYSearchExtension.h"; sourceTree = "<group>"; };
+		57A1452520FEE95600ACC90E /* UIColor+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYSearchExtension.m"; sourceTree = "<group>"; };
+		57A1452620FEE95600ACC90E /* PYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		57A1452720FEE95600ACC90E /* PYSearchSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchSuggestionViewController.m; sourceTree = "<group>"; };
+		57A1452820FEE95600ACC90E /* UIView+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYSearchExtension.h"; sourceTree = "<group>"; };
+		57A1452920FEE95600ACC90E /* PYSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchConst.m; sourceTree = "<group>"; };
+		57A1452A20FEE95600ACC90E /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		57A1452B20FEE95600ACC90E /* NSBundle+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+PYSearchExtension.m"; sourceTree = "<group>"; };
+		57A1452C20FEE95600ACC90E /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
+		57A1452D20FEE95600ACC90E /* PYSearchSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchSuggestionViewController.h; sourceTree = "<group>"; };
+		57A1452E20FEE95600ACC90E /* PYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		57A1452F20FEE95600ACC90E /* UIColor+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYSearchExtension.h"; sourceTree = "<group>"; };
+		57A1453020FEE95600ACC90E /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
+		57A1453120FEE95600ACC90E /* UIView+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYSearchExtension.m"; sourceTree = "<group>"; };
 		7C11AEAE20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		7C11AEAF20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		7C11AEB320F300AC00031863 /* RecordAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordAudio.m; sourceTree = "<group>"; };
@@ -527,6 +555,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57A1452320FEE95600ACC90E /* PYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				57A1452420FEE95600ACC90E /* NSBundle+PYSearchExtension.h */,
+				57A1452520FEE95600ACC90E /* UIColor+PYSearchExtension.m */,
+				57A1452620FEE95600ACC90E /* PYSearchViewController.m */,
+				57A1452720FEE95600ACC90E /* PYSearchSuggestionViewController.m */,
+				57A1452820FEE95600ACC90E /* UIView+PYSearchExtension.h */,
+				57A1452920FEE95600ACC90E /* PYSearchConst.m */,
+				57A1452A20FEE95600ACC90E /* PYSearch.bundle */,
+				57A1452B20FEE95600ACC90E /* NSBundle+PYSearchExtension.m */,
+				57A1452C20FEE95600ACC90E /* PYSearch.h */,
+				57A1452D20FEE95600ACC90E /* PYSearchSuggestionViewController.h */,
+				57A1452E20FEE95600ACC90E /* PYSearchViewController.h */,
+				57A1452F20FEE95600ACC90E /* UIColor+PYSearchExtension.h */,
+				57A1453020FEE95600ACC90E /* PYSearchConst.h */,
+				57A1453120FEE95600ACC90E /* UIView+PYSearchExtension.m */,
+			);
+			path = PYSearch;
+			sourceTree = "<group>";
+		};
 		7C11AEAD20F3004700031863 /* ZFNavigationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -909,6 +958,7 @@
 		7CD807F12081AE6A00D398B8 /* MHObjCKit */ = {
 			isa = PBXGroup;
 			children = (
+				57A1452320FEE95600ACC90E /* PYSearch */,
 				7C7218C420F855C40081674A /* LCActionSheet */,
 				7C11AED720F5E85200031863 /* JFCityViewController */,
 				7C8C9A4C20EF780100D2C041 /* DACircularProgress */,
@@ -1201,6 +1251,13 @@
 				7C7218D220F855C40081674A /* LCActionSheet.h in Headers */,
 				7C7218DA20F855C40081674A /* LCActionSheetCell.h in Headers */,
 				7C7218DB20F855C40081674A /* LCActionSheetViewController.h in Headers */,
+				57A1453B20FEE95700ACC90E /* PYSearchSuggestionViewController.h in Headers */,
+				57A1453220FEE95600ACC90E /* NSBundle+PYSearchExtension.h in Headers */,
+				57A1453D20FEE95700ACC90E /* UIColor+PYSearchExtension.h in Headers */,
+				57A1453E20FEE95700ACC90E /* PYSearchConst.h in Headers */,
+				57A1453A20FEE95700ACC90E /* PYSearch.h in Headers */,
+				57A1453C20FEE95700ACC90E /* PYSearchViewController.h in Headers */,
+				57A1453620FEE95700ACC90E /* UIView+PYSearchExtension.h in Headers */,
 				7C7218D920F855C40081674A /* UIDevice+LCActionSheet.h in Headers */,
 				7CF0524F208DC44E00613E60 /* UIView+DropShadow.h in Headers */,
 				7CF0524D208DC44E00613E60 /* UIImageEffects.h in Headers */,
@@ -1277,6 +1334,7 @@
 				7C11AF0620F5F32700031863 /* down_arrow_icon1@2x.png in Resources */,
 				7C11AEFE20F5E85200031863 /* shop_area.sqlite in Resources */,
 				7C6CB3D5208846A200B352AE /* ZFPlayer.bundle in Resources */,
+				57A1453820FEE95700ACC90E /* PYSearch.bundle in Resources */,
 				7C11AF0920F5F33200031863 /* down_arrow_icon2@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1313,6 +1371,7 @@
 				7C6CB3CE208846A200B352AE /* UIViewController+ZFPlayerRotation.m in Sources */,
 				7C6CB40A208846A200B352AE /* ASIS3BucketRequest.m in Sources */,
 				7C6CB3FB208846A200B352AE /* ASICloudFilesContainerRequest.m in Sources */,
+				57A1453920FEE95700ACC90E /* NSBundle+PYSearchExtension.m in Sources */,
 				7C6CB3F2208846A200B352AE /* ASINetworkQueue.m in Sources */,
 				7C6CB419208846A200B352AE /* ZFHttpRequest.m in Sources */,
 				7C6CB3F5208846A200B352AE /* ASIWebPageRequest.m in Sources */,
@@ -1337,6 +1396,7 @@
 				7C6CB3F9208846A200B352AE /* ASICloudFilesContainer.m in Sources */,
 				7CF8375B2081D4B70078E28B /* UIDevice+FCUUID.m in Sources */,
 				7CF837552081D4B70078E28B /* SDCycleScrollView.m in Sources */,
+				57A1453720FEE95700ACC90E /* PYSearchConst.m in Sources */,
 				7C6CB3D2208846A200B352AE /* MMMaterialDesignSpinner.m in Sources */,
 				7C6CB3E1208846A200B352AE /* ASIAuthenticationDialog.m in Sources */,
 				7CF837572081D4B70078E28B /* UIView+SDExtension.m in Sources */,
@@ -1366,6 +1426,8 @@
 				7C6CB3CC208846A200B352AE /* UIView+CustomControlView.m in Sources */,
 				7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */,
 				7CF837532081D4B70078E28B /* SDCollectionViewCell.m in Sources */,
+				57A1453420FEE95700ACC90E /* PYSearchViewController.m in Sources */,
+				57A1453520FEE95700ACC90E /* PYSearchSuggestionViewController.m in Sources */,
 				7CF8374B2081D4B70078E28B /* TAAbstractDotView.m in Sources */,
 				7C11AEF920F5E85200031863 /* JFCityCollectionFlowLayout.m in Sources */,
 				7CF836B92081B4200078E28B /* JPVideoPlayerResourceLoader.m in Sources */,
@@ -1396,6 +1458,7 @@
 				7CF836BB2081B4200078E28B /* JPVideoPlayerSupportUtils.m in Sources */,
 				7C6CB415208846A200B352AE /* ZFDownloadManager.m in Sources */,
 				7C11AEF520F5E85200031863 /* JFCityHeaderView.m in Sources */,
+				57A1453F20FEE95700ACC90E /* UIView+PYSearchExtension.m in Sources */,
 				7CF836AA2081B4200078E28B /* JPVideoPlayerCache.m in Sources */,
 				7C7218D820F855C40081674A /* LCActionSheet.m in Sources */,
 				7C6CB3FF208846A200B352AE /* ASICloudFilesObject.m in Sources */,
@@ -1407,6 +1470,7 @@
 				7C8C9A3D20EF77EB00D2C041 /* PYPhotosReaderController.m in Sources */,
 				7CF836C12081B4200078E28B /* UIView+WebVideoCache.m in Sources */,
 				7C8C9A5220EF780100D2C041 /* DACircularProgressView.m in Sources */,
+				57A1453320FEE95600ACC90E /* UIColor+PYSearchExtension.m in Sources */,
 				7CF836BF2081B4200078E28B /* UITableViewCell+WebVideoCache.m in Sources */,
 				7C11AEF820F5E85200031863 /* JFCityTableViewCell.m in Sources */,
 				7C7218D120F855C40081674A /* UIDevice+LCActionSheet.m in Sources */,

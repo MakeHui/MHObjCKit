@@ -145,7 +145,7 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/PYPhotoView.h>
 #import <MHObjCKit/PYPhotosView.h>
 
-// https://github.com/guange2015/ios-amr (v1.3 eff9391)
+// https://github.com/guange2015/ios-amr (v1.3 < eff9391)
 #import <MHObjCKit/RecordAudio.h>
 
 // https://github.com/zhifenx/JFCitySelector (master 6b72c63)
@@ -167,4 +167,12 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/UIDevice+LCActionSheet.h>
 #import <MHObjCKit/UIImage+LCActionSheet.h>
 
+// https://github.com/ko1o/PYSearch (v0.9.0 < 7ff3586)
+#import <MHObjCKit/NSBundle+PYSearchExtension.h>
+#import <MHObjCKit/PYSearch.h>
+#import <MHObjCKit/PYSearchConst.h>
+#import <MHObjCKit/PYSearchSuggestionViewController.h>
+#import <MHObjCKit/PYSearchViewController.h>
+#import <MHObjCKit/UIColor+PYSearchExtension.h>
+#import <MHObjCKit/UIView+PYSearchExtension.h>
 

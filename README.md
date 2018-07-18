@@ -36,6 +36,11 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v1.6.0
+
+- [iTofu/LCActionSheet (v3.5.0)](https://github.com/iTofu/LCActionSheet)
+- [ko1o/PYSearch (v0.9.0 < 7ff3586)](https://github.com/ko1o/PYSearch)
+
 ### v1.5.0
 
 - [zhifenx/JFCitySelector(master 6b72c63)](https://github.com/zhifenx/JFCitySelector)

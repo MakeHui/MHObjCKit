@@ -176,3 +176,7 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/UIColor+PYSearchExtension.h>
 #import <MHObjCKit/UIView+PYSearchExtension.h>
 
+// https://github.com/sakkaras/SKSTableView (master == edc6b78)
+#import <MHObjCKit/SKSTableView.h>
+#import <MHObjCKit/SKSTableViewCell.h>
+#import <MHObjCKit/SKSTableViewCellIndicator.h>

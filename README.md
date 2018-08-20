@@ -36,6 +36,10 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v1.6.1
+
+- [sakkaras/SKSTableView (master == edc6b78)](https://github.com/sakkaras/SKSTableView)
+
 ### v1.6.0
 
 - [iTofu/LCActionSheet (v3.5.0)](https://github.com/iTofu/LCActionSheet)

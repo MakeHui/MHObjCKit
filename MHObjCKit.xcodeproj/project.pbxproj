@@ -165,6 +165,12 @@
 		7C7DD427212ABCB900F1644A /* SKSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD41F212ABCB900F1644A /* SKSTableView.m */; };
 		7C7DD428212ABCB900F1644A /* SKSTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD420212ABCB900F1644A /* SKSTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C7DD429212ABCB900F1644A /* SKSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD421212ABCB900F1644A /* SKSTableViewCellIndicator.m */; };
+		7C7DD431212AC17600F1644A /* PopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42B212AC17600F1644A /* PopoverView.h */; };
+		7C7DD432212AC17600F1644A /* PopoverViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42C212AC17600F1644A /* PopoverViewCell.h */; };
+		7C7DD433212AC17600F1644A /* PopoverAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42D212AC17600F1644A /* PopoverAction.h */; };
+		7C7DD434212AC17600F1644A /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD42E212AC17600F1644A /* PopoverAction.m */; };
+		7C7DD435212AC17600F1644A /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD42F212AC17600F1644A /* PopoverView.m */; };
+		7C7DD436212AC17600F1644A /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD430212AC17600F1644A /* PopoverViewCell.m */; };
 		7C8C9A3020EF77EA00D2C041 /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C9A1020EF77EA00D2C041 /* UIView+PYExtension.m */; };
 		7C8C9A3120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8C9A1120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C8C9A3220EF77EA00D2C041 /* UIView+PYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8C9A1220EF77EA00D2C041 /* UIView+PYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -437,6 +443,12 @@
 		7C7DD41F212ABCB900F1644A /* SKSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSTableView.m; sourceTree = "<group>"; };
 		7C7DD420212ABCB900F1644A /* SKSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSTableViewCell.h; sourceTree = "<group>"; };
 		7C7DD421212ABCB900F1644A /* SKSTableViewCellIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSTableViewCellIndicator.m; sourceTree = "<group>"; };
+		7C7DD42B212AC17600F1644A /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		7C7DD42C212AC17600F1644A /* PopoverViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCell.h; sourceTree = "<group>"; };
+		7C7DD42D212AC17600F1644A /* PopoverAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverAction.h; sourceTree = "<group>"; };
+		7C7DD42E212AC17600F1644A /* PopoverAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverAction.m; sourceTree = "<group>"; };
+		7C7DD42F212AC17600F1644A /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		7C7DD430212AC17600F1644A /* PopoverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewCell.m; sourceTree = "<group>"; };
 		7C8C9A1020EF77EA00D2C041 /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
 		7C8C9A1120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+PYExtension.h"; sourceTree = "<group>"; };
 		7C8C9A1220EF77EA00D2C041 /* UIView+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYExtension.h"; sourceTree = "<group>"; };
@@ -883,6 +895,19 @@
 			path = SKSTableView;
 			sourceTree = "<group>";
 		};
+		7C7DD42A212AC17600F1644A /* PopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DD42B212AC17600F1644A /* PopoverView.h */,
+				7C7DD42C212AC17600F1644A /* PopoverViewCell.h */,
+				7C7DD42D212AC17600F1644A /* PopoverAction.h */,
+				7C7DD42E212AC17600F1644A /* PopoverAction.m */,
+				7C7DD42F212AC17600F1644A /* PopoverView.m */,
+				7C7DD430212AC17600F1644A /* PopoverViewCell.m */,
+			);
+			path = PopoverView;
+			sourceTree = "<group>";
+		};
 		7C8C9A0E20EF77EA00D2C041 /* PYPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -989,6 +1014,7 @@
 		7CD807F12081AE6A00D398B8 /* MHObjCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7C7DD42A212AC17600F1644A /* PopoverView */,
 				7C7DD419212ABCB800F1644A /* SKSTableView */,
 				57A1452320FEE95600ACC90E /* PYSearch */,
 				7C7218C420F855C40081674A /* LCActionSheet */,
@@ -1203,7 +1229,9 @@
 				7C6CB414208846A200B352AE /* ZFDownloadManager.h in Headers */,
 				7C6CB3EE208846A200B352AE /* ASIHTTPRequestDelegate.h in Headers */,
 				7C6CB40B208846A200B352AE /* ASIS3ObjectRequest.h in Headers */,
+				7C7DD432212AC17600F1644A /* PopoverViewCell.h in Headers */,
 				7C6CB3D3208846A200B352AE /* ZFBrightnessView.h in Headers */,
+				7C7DD433212AC17600F1644A /* PopoverAction.h in Headers */,
 				7C6CB409208846A200B352AE /* ASIS3BucketRequest.h in Headers */,
 				7C6CB404208846A200B352AE /* ASINSXMLParserCompat.h in Headers */,
 				7C6CB3C5208846A200B352AE /* ASValuePopUpView.h in Headers */,
@@ -1274,6 +1302,7 @@
 				7C11AEFD20F5E85200031863 /* JFCityTableViewCell.h in Headers */,
 				7C11AEFF20F5E85200031863 /* JFSearchView.h in Headers */,
 				7C11AEEE20F5E85200031863 /* JFCityCollectionFlowLayout.h in Headers */,
+				7C7DD431212AC17600F1644A /* PopoverView.h in Headers */,
 				7C11AEF220F5E85200031863 /* JFAreaDataManager.h in Headers */,
 				7C11AEF120F5E85200031863 /* JFLocation.h in Headers */,
 				7C11AEF420F5E85200031863 /* JFButton.h in Headers */,
@@ -1403,6 +1432,7 @@
 				7CF836B22081B4200078E28B /* JPVideoPlayerControlViews.m in Sources */,
 				7C6CB3F0208846A200B352AE /* ASIInputStream.m in Sources */,
 				7CF837412081D4B70078E28B /* FDStackViewLayoutArrangement.m in Sources */,
+				7C7DD434212AC17600F1644A /* PopoverAction.m in Sources */,
 				7C11AEB020F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m in Sources */,
 				7CF836B42081B4200078E28B /* JPVideoPlayerDownloader.m in Sources */,
 				7C6CB3CE208846A200B352AE /* UIViewController+ZFPlayerRotation.m in Sources */,
@@ -1438,6 +1468,7 @@
 				7C6CB3D2208846A200B352AE /* MMMaterialDesignSpinner.m in Sources */,
 				7C6CB3E1208846A200B352AE /* ASIAuthenticationDialog.m in Sources */,
 				7CF837572081D4B70078E28B /* UIView+SDExtension.m in Sources */,
+				7C7DD435212AC17600F1644A /* PopoverView.m in Sources */,
 				7C6CB3DF208846A200B352AE /* Reachability.m in Sources */,
 				7C7218D520F855C40081674A /* LCActionSheetCell.m in Sources */,
 				7C6CB3F7208846A200B352AE /* ASICloudFilesCDNRequest.m in Sources */,
@@ -1464,6 +1495,7 @@
 				7C8C9A3F20EF77EB00D2C041 /* PYPhotosPreviewController.m in Sources */,
 				7C6CB3CC208846A200B352AE /* UIView+CustomControlView.m in Sources */,
 				7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */,
+				7C7DD436212AC17600F1644A /* PopoverViewCell.m in Sources */,
 				7CF837532081D4B70078E28B /* SDCollectionViewCell.m in Sources */,
 				57A1453420FEE95700ACC90E /* PYSearchViewController.m in Sources */,
 				57A1453520FEE95700ACC90E /* PYSearchSuggestionViewController.m in Sources */,

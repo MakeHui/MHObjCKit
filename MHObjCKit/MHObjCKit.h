@@ -180,3 +180,8 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/SKSTableView.h>
 #import <MHObjCKit/SKSTableViewCell.h>
 #import <MHObjCKit/SKSTableViewCellIndicator.h>
+
+// https://github.com/lifution/Popover (v2.2)
+#import <MHObjCKit/PopoverAction.h>
+#import <MHObjCKit/PopoverView.h>
+#import <MHObjCKit/PopoverViewCell.h>

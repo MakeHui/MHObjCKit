@@ -36,8 +36,9 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
-### v1.6.1
+### v1.6.2
 
+- [lifution/Popover (v2.2)](https://github.com/lifution/Popover)
 - [sakkaras/SKSTableView (master == edc6b78)](https://github.com/sakkaras/SKSTableView)
 
 ### v1.6.0

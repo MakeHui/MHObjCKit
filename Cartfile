@@ -1,5 +1,5 @@
 github "kishikawakatsumi/UICKeyChainStore"
 github "SnapKit/Masonry"
 github "rs/SDWebImage"
-github "jdg/MBProgressHUD"
+github "jdg/MBProgressHUD" == 0.9.2
 github "ccgus/fmdb"

@@ -55,8 +55,6 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/ZFFileModel.h>
 #import <MHObjCKit/ZFHttpRequest.h>
 
-// https://github.com/renzifeng/ZFNavigationController
-#import <MHObjCKit/UINavigationController+ZFFullscreenPopGesture.h>
 
 // https://github.com/renzifeng/ZFPlayer
 #import <MHObjCKit/ASValuePopUpView.h>
@@ -145,9 +143,6 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/PYPhotoView.h>
 #import <MHObjCKit/PYPhotosView.h>
 
-// https://github.com/guange2015/ios-amr (v1.3 < eff9391)
-#import <MHObjCKit/RecordAudio.h>
-
 // https://github.com/zhifenx/JFCitySelector (master 6b72c63)
 #import <MHObjCKit/JFAreaDataManager.h>
 #import <MHObjCKit/JFButton.h>
@@ -185,3 +180,6 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/PopoverAction.h>
 #import <MHObjCKit/PopoverView.h>
 #import <MHObjCKit/PopoverViewCell.h>
+
+// https://github.com/gang544043963/LGAudioKit (master == f903ab6)
+#import <MHObjCKit/LGAudioKit.h>

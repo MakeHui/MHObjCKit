@@ -21,15 +21,11 @@
 		57A1453D20FEE95700ACC90E /* UIColor+PYSearchExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1452F20FEE95600ACC90E /* UIColor+PYSearchExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57A1453E20FEE95700ACC90E /* PYSearchConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1453020FEE95600ACC90E /* PYSearchConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57A1453F20FEE95700ACC90E /* UIView+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1453120FEE95600ACC90E /* UIView+PYSearchExtension.m */; };
-		7C11AEB020F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEAE20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m */; };
-		7C11AEB120F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEAF20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEB320F300AC00031863 /* RecordAudio.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7C11AEC220F300AC00031863 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEB420F300AC00031863 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C11AEC320F300AC00031863 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEB720F300AC00031863 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C11AEC420F300AC00031863 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEB820F300AC00031863 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C11AEC520F300AC00031863 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEBA20F300AC00031863 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C11AEC620F300AC00031863 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEBB20F300AC00031863 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C11AEC720F300AC00031863 /* RecordAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11AEBC20F300AC00031863 /* RecordAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C11AEC820F300AC00031863 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C11AEBE20F300AC00031863 /* libopencore-amrwb.a */; };
 		7C11AEC920F300AC00031863 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C11AEBF20F300AC00031863 /* libopencore-amrnb.a */; };
 		7C11AECA20F300AC00031863 /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C11AEC020F300AC00031863 /* amrFileCodec.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -165,12 +161,27 @@
 		7C7DD427212ABCB900F1644A /* SKSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD41F212ABCB900F1644A /* SKSTableView.m */; };
 		7C7DD428212ABCB900F1644A /* SKSTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD420212ABCB900F1644A /* SKSTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C7DD429212ABCB900F1644A /* SKSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD421212ABCB900F1644A /* SKSTableViewCellIndicator.m */; };
-		7C7DD431212AC17600F1644A /* PopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42B212AC17600F1644A /* PopoverView.h */; };
-		7C7DD432212AC17600F1644A /* PopoverViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42C212AC17600F1644A /* PopoverViewCell.h */; };
-		7C7DD433212AC17600F1644A /* PopoverAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42D212AC17600F1644A /* PopoverAction.h */; };
+		7C7DD431212AC17600F1644A /* PopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42B212AC17600F1644A /* PopoverView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7DD432212AC17600F1644A /* PopoverViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42C212AC17600F1644A /* PopoverViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7DD433212AC17600F1644A /* PopoverAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD42D212AC17600F1644A /* PopoverAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C7DD434212AC17600F1644A /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD42E212AC17600F1644A /* PopoverAction.m */; };
 		7C7DD435212AC17600F1644A /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD42F212AC17600F1644A /* PopoverView.m */; };
 		7C7DD436212AC17600F1644A /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD430212AC17600F1644A /* PopoverViewCell.m */; };
+		7C7DD48E212D3D7400F1644A /* LGAudioKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD47C212D3D7400F1644A /* LGAudioKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7DD48F212D3D7400F1644A /* LGAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD47E212D3D7400F1644A /* LGAudioPlayer.m */; };
+		7C7DD490212D3D7400F1644A /* LGAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD47F212D3D7400F1644A /* LGAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7DD491212D3D7400F1644A /* toast_vol_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD481212D3D7400F1644A /* toast_vol_5@2x.png */; };
+		7C7DD492212D3D7400F1644A /* toast_vol_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD482212D3D7400F1644A /* toast_vol_7@2x.png */; };
+		7C7DD493212D3D7400F1644A /* toast_vol_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD483212D3D7400F1644A /* toast_vol_3@2x.png */; };
+		7C7DD494212D3D7400F1644A /* toast_microphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD484212D3D7400F1644A /* toast_microphone@2x.png */; };
+		7C7DD495212D3D7400F1644A /* toast_vol_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD485212D3D7400F1644A /* toast_vol_1@2x.png */; };
+		7C7DD496212D3D7400F1644A /* toast_vol_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD486212D3D7400F1644A /* toast_vol_4@2x.png */; };
+		7C7DD497212D3D7400F1644A /* toast_vol_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD487212D3D7400F1644A /* toast_vol_6@2x.png */; };
+		7C7DD498212D3D7400F1644A /* toast_cancelsend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD488212D3D7400F1644A /* toast_cancelsend@2x.png */; };
+		7C7DD499212D3D7400F1644A /* toast_vol_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD489212D3D7400F1644A /* toast_vol_2@2x.png */; };
+		7C7DD49A212D3D7400F1644A /* toast_timeshort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD48A212D3D7400F1644A /* toast_timeshort@2x.png */; };
+		7C7DD49B212D3D7400F1644A /* LGSoundRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DD48C212D3D7400F1644A /* LGSoundRecorder.m */; };
+		7C7DD49C212D3D7400F1644A /* LGSoundRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7DD48D212D3D7400F1644A /* LGSoundRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C8C9A3020EF77EA00D2C041 /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C9A1020EF77EA00D2C041 /* UIView+PYExtension.m */; };
 		7C8C9A3120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8C9A1120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C8C9A3220EF77EA00D2C041 /* UIView+PYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8C9A1220EF77EA00D2C041 /* UIView+PYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -299,15 +310,11 @@
 		57A1452F20FEE95600ACC90E /* UIColor+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYSearchExtension.h"; sourceTree = "<group>"; };
 		57A1453020FEE95600ACC90E /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
 		57A1453120FEE95600ACC90E /* UIView+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYSearchExtension.m"; sourceTree = "<group>"; };
-		7C11AEAE20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		7C11AEAF20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		7C11AEB320F300AC00031863 /* RecordAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordAudio.m; sourceTree = "<group>"; };
 		7C11AEB420F300AC00031863 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
 		7C11AEB720F300AC00031863 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
 		7C11AEB820F300AC00031863 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
 		7C11AEBA20F300AC00031863 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
 		7C11AEBB20F300AC00031863 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
-		7C11AEBC20F300AC00031863 /* RecordAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordAudio.h; sourceTree = "<group>"; };
 		7C11AEBE20F300AC00031863 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
 		7C11AEBF20F300AC00031863 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		7C11AEC020F300AC00031863 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
@@ -449,6 +456,21 @@
 		7C7DD42E212AC17600F1644A /* PopoverAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverAction.m; sourceTree = "<group>"; };
 		7C7DD42F212AC17600F1644A /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
 		7C7DD430212AC17600F1644A /* PopoverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewCell.m; sourceTree = "<group>"; };
+		7C7DD47C212D3D7400F1644A /* LGAudioKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAudioKit.h; sourceTree = "<group>"; };
+		7C7DD47E212D3D7400F1644A /* LGAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAudioPlayer.m; sourceTree = "<group>"; };
+		7C7DD47F212D3D7400F1644A /* LGAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAudioPlayer.h; sourceTree = "<group>"; };
+		7C7DD481212D3D7400F1644A /* toast_vol_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_5@2x.png"; sourceTree = "<group>"; };
+		7C7DD482212D3D7400F1644A /* toast_vol_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_7@2x.png"; sourceTree = "<group>"; };
+		7C7DD483212D3D7400F1644A /* toast_vol_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_3@2x.png"; sourceTree = "<group>"; };
+		7C7DD484212D3D7400F1644A /* toast_microphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_microphone@2x.png"; sourceTree = "<group>"; };
+		7C7DD485212D3D7400F1644A /* toast_vol_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_1@2x.png"; sourceTree = "<group>"; };
+		7C7DD486212D3D7400F1644A /* toast_vol_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_4@2x.png"; sourceTree = "<group>"; };
+		7C7DD487212D3D7400F1644A /* toast_vol_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_6@2x.png"; sourceTree = "<group>"; };
+		7C7DD488212D3D7400F1644A /* toast_cancelsend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_cancelsend@2x.png"; sourceTree = "<group>"; };
+		7C7DD489212D3D7400F1644A /* toast_vol_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_2@2x.png"; sourceTree = "<group>"; };
+		7C7DD48A212D3D7400F1644A /* toast_timeshort@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_timeshort@2x.png"; sourceTree = "<group>"; };
+		7C7DD48C212D3D7400F1644A /* LGSoundRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSoundRecorder.m; sourceTree = "<group>"; };
+		7C7DD48D212D3D7400F1644A /* LGSoundRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSoundRecorder.h; sourceTree = "<group>"; };
 		7C8C9A1020EF77EA00D2C041 /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
 		7C8C9A1120EF77EA00D2C041 /* MBProgressHUD+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+PYExtension.h"; sourceTree = "<group>"; };
 		7C8C9A1220EF77EA00D2C041 /* UIView+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYExtension.h"; sourceTree = "<group>"; };
@@ -604,22 +626,11 @@
 			path = PYSearch;
 			sourceTree = "<group>";
 		};
-		7C11AEAD20F3004700031863 /* ZFNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				7C11AEAE20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m */,
-				7C11AEAF20F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h */,
-			);
-			path = ZFNavigationController;
-			sourceTree = "<group>";
-		};
 		7C11AEB220F300AC00031863 /* arm */ = {
 			isa = PBXGroup;
 			children = (
 				7C11AEB520F300AC00031863 /* include */,
 				7C11AEBD20F300AC00031863 /* lib */,
-				7C11AEBC20F300AC00031863 /* RecordAudio.h */,
-				7C11AEB320F300AC00031863 /* RecordAudio.m */,
 				7C11AEB420F300AC00031863 /* amrFileCodec.h */,
 				7C11AEC020F300AC00031863 /* amrFileCodec.m */,
 			);
@@ -908,6 +919,52 @@
 			path = PopoverView;
 			sourceTree = "<group>";
 		};
+		7C7DD47B212D3D7400F1644A /* LGAudioKit */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DD47C212D3D7400F1644A /* LGAudioKit.h */,
+				7C7DD47D212D3D7400F1644A /* LGSoundPlayer */,
+				7C7DD48B212D3D7400F1644A /* LGSoundRecorder */,
+				7C7DD480212D3D7400F1644A /* Resource */,
+			);
+			path = LGAudioKit;
+			sourceTree = "<group>";
+		};
+		7C7DD47D212D3D7400F1644A /* LGSoundPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DD47E212D3D7400F1644A /* LGAudioPlayer.m */,
+				7C7DD47F212D3D7400F1644A /* LGAudioPlayer.h */,
+			);
+			path = LGSoundPlayer;
+			sourceTree = "<group>";
+		};
+		7C7DD480212D3D7400F1644A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DD481212D3D7400F1644A /* toast_vol_5@2x.png */,
+				7C7DD482212D3D7400F1644A /* toast_vol_7@2x.png */,
+				7C7DD483212D3D7400F1644A /* toast_vol_3@2x.png */,
+				7C7DD484212D3D7400F1644A /* toast_microphone@2x.png */,
+				7C7DD485212D3D7400F1644A /* toast_vol_1@2x.png */,
+				7C7DD486212D3D7400F1644A /* toast_vol_4@2x.png */,
+				7C7DD487212D3D7400F1644A /* toast_vol_6@2x.png */,
+				7C7DD488212D3D7400F1644A /* toast_cancelsend@2x.png */,
+				7C7DD489212D3D7400F1644A /* toast_vol_2@2x.png */,
+				7C7DD48A212D3D7400F1644A /* toast_timeshort@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7C7DD48B212D3D7400F1644A /* LGSoundRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DD48C212D3D7400F1644A /* LGSoundRecorder.m */,
+				7C7DD48D212D3D7400F1644A /* LGSoundRecorder.h */,
+			);
+			path = LGSoundRecorder;
+			sourceTree = "<group>";
+		};
 		7C8C9A0E20EF77EA00D2C041 /* PYPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -1024,7 +1081,6 @@
 				7CF05242208DC44E00613E60 /* ZHPopupView */,
 				7C6CB383208846A200B352AE /* ASIHTTPRequest */,
 				7C6CB380208846A100B352AE /* Reachability */,
-				7C11AEAD20F3004700031863 /* ZFNavigationController */,
 				7C6CB3B8208846A200B352AE /* ZFDownload */,
 				7C6CB365208846A100B352AE /* ZFPlayer */,
 				7CF8372D2081D4B70078E28B /* FCUUID */,
@@ -1033,6 +1089,7 @@
 				7CF837152081D4B60078E28B /* NSUserDefaults-DefaultValues */,
 				7CF8371D2081D4B60078E28B /* SDCycleScrollView */,
 				7CF836852081B41F0078E28B /* JPVideoPlayer */,
+				7C7DD47B212D3D7400F1644A /* LGAudioKit */,
 				7C11AEB220F300AC00031863 /* arm */,
 				7CD807F22081AE6A00D398B8 /* MHObjCKit.h */,
 				7CD807F32081AE6A00D398B8 /* Info.plist */,
@@ -1229,9 +1286,7 @@
 				7C6CB414208846A200B352AE /* ZFDownloadManager.h in Headers */,
 				7C6CB3EE208846A200B352AE /* ASIHTTPRequestDelegate.h in Headers */,
 				7C6CB40B208846A200B352AE /* ASIS3ObjectRequest.h in Headers */,
-				7C7DD432212AC17600F1644A /* PopoverViewCell.h in Headers */,
 				7C6CB3D3208846A200B352AE /* ZFBrightnessView.h in Headers */,
-				7C7DD433212AC17600F1644A /* PopoverAction.h in Headers */,
 				7C6CB409208846A200B352AE /* ASIS3BucketRequest.h in Headers */,
 				7C6CB404208846A200B352AE /* ASINSXMLParserCompat.h in Headers */,
 				7C6CB3C5208846A200B352AE /* ASValuePopUpView.h in Headers */,
@@ -1302,11 +1357,9 @@
 				7C11AEFD20F5E85200031863 /* JFCityTableViewCell.h in Headers */,
 				7C11AEFF20F5E85200031863 /* JFSearchView.h in Headers */,
 				7C11AEEE20F5E85200031863 /* JFCityCollectionFlowLayout.h in Headers */,
-				7C7DD431212AC17600F1644A /* PopoverView.h in Headers */,
 				7C11AEF220F5E85200031863 /* JFAreaDataManager.h in Headers */,
 				7C11AEF120F5E85200031863 /* JFLocation.h in Headers */,
 				7C11AEF420F5E85200031863 /* JFButton.h in Headers */,
-				7C11AEC720F300AC00031863 /* RecordAudio.h in Headers */,
 				7C7218DC20F855C40081674A /* UIImage+LCActionSheet.h in Headers */,
 				7C7218D320F855C40081674A /* LCActionSheetConfig.h in Headers */,
 				7C7218D220F855C40081674A /* LCActionSheet.h in Headers */,
@@ -1323,10 +1376,15 @@
 				7CF0524F208DC44E00613E60 /* UIView+DropShadow.h in Headers */,
 				7CF0524D208DC44E00613E60 /* UIImageEffects.h in Headers */,
 				7CF836B12081B4200078E28B /* JPVideoPlayerControlViews.h in Headers */,
+				7C7DD432212AC17600F1644A /* PopoverViewCell.h in Headers */,
+				7C7DD433212AC17600F1644A /* PopoverAction.h in Headers */,
+				7C7DD48E212D3D7400F1644A /* LGAudioKit.h in Headers */,
+				7C7DD49C212D3D7400F1644A /* LGSoundRecorder.h in Headers */,
+				7C7DD490212D3D7400F1644A /* LGAudioPlayer.h in Headers */,
+				7C7DD431212AC17600F1644A /* PopoverView.h in Headers */,
 				7C7DD422212ABCB900F1644A /* SKSTableView.h in Headers */,
 				7C7DD425212ABCB900F1644A /* SKSTableViewCellIndicator.h in Headers */,
 				7C7DD428212ABCB900F1644A /* SKSTableViewCell.h in Headers */,
-				7C11AEB120F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.h in Headers */,
 				7CD807F42081AE6A00D398B8 /* MHObjCKit.h in Headers */,
 				7CF836B52081B4200078E28B /* JPVideoPlayerManager.h in Headers */,
 			);
@@ -1393,15 +1451,25 @@
 			files = (
 				7C11AF0A20F5F33200031863 /* down_arrow_icon2@2x.png in Resources */,
 				7C7DD424212ABCB900F1644A /* expandableImage.png in Resources */,
+				7C7DD491212D3D7400F1644A /* toast_vol_5@2x.png in Resources */,
 				7CF836A62081B4200078E28B /* JPVideoPlayer.bundle in Resources */,
 				7C8C9A4B20EF77EB00D2C041 /* PYPhotosView.bundle in Resources */,
 				7C11AF0520F5F32700031863 /* down_arrow_icon1@3x.png in Resources */,
+				7C7DD498212D3D7400F1644A /* toast_cancelsend@2x.png in Resources */,
 				7C11AF0620F5F32700031863 /* down_arrow_icon1@2x.png in Resources */,
+				7C7DD497212D3D7400F1644A /* toast_vol_6@2x.png in Resources */,
+				7C7DD49A212D3D7400F1644A /* toast_timeshort@2x.png in Resources */,
 				7C11AEFE20F5E85200031863 /* shop_area.sqlite in Resources */,
 				7C7DD423212ABCB900F1644A /* expandableImage@2x.png in Resources */,
+				7C7DD494212D3D7400F1644A /* toast_microphone@2x.png in Resources */,
+				7C7DD495212D3D7400F1644A /* toast_vol_1@2x.png in Resources */,
 				7C6CB3D5208846A200B352AE /* ZFPlayer.bundle in Resources */,
+				7C7DD496212D3D7400F1644A /* toast_vol_4@2x.png in Resources */,
+				7C7DD492212D3D7400F1644A /* toast_vol_7@2x.png in Resources */,
 				57A1453820FEE95700ACC90E /* PYSearch.bundle in Resources */,
+				7C7DD493212D3D7400F1644A /* toast_vol_3@2x.png in Resources */,
 				7C11AF0920F5F33200031863 /* down_arrow_icon2@3x.png in Resources */,
+				7C7DD499212D3D7400F1644A /* toast_vol_2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1433,8 +1501,8 @@
 				7C6CB3F0208846A200B352AE /* ASIInputStream.m in Sources */,
 				7CF837412081D4B70078E28B /* FDStackViewLayoutArrangement.m in Sources */,
 				7C7DD434212AC17600F1644A /* PopoverAction.m in Sources */,
-				7C11AEB020F3004700031863 /* UINavigationController+ZFFullscreenPopGesture.m in Sources */,
 				7CF836B42081B4200078E28B /* JPVideoPlayerDownloader.m in Sources */,
+				7C7DD49B212D3D7400F1644A /* LGSoundRecorder.m in Sources */,
 				7C6CB3CE208846A200B352AE /* UIViewController+ZFPlayerRotation.m in Sources */,
 				7C6CB40A208846A200B352AE /* ASIS3BucketRequest.m in Sources */,
 				7C6CB3FB208846A200B352AE /* ASICloudFilesContainerRequest.m in Sources */,
@@ -1481,6 +1549,7 @@
 				7C6CB3E4208846A200B352AE /* ASIDataCompressor.m in Sources */,
 				7CF837432081D4B70078E28B /* FDTransformLayer.m in Sources */,
 				7CF836B62081B4200078E28B /* JPVideoPlayerManager.m in Sources */,
+				7C7DD48F212D3D7400F1644A /* LGAudioPlayer.m in Sources */,
 				7C6CB3D4208846A200B352AE /* ZFBrightnessView.m in Sources */,
 				7C11AEFB20F5E85200031863 /* JFButton.m in Sources */,
 				7C8C9A5120EF780100D2C041 /* DALabeledCircularProgressView.m in Sources */,
@@ -1494,7 +1563,6 @@
 				7C7218D620F855C40081674A /* UIImage+LCActionSheet.m in Sources */,
 				7C8C9A3F20EF77EB00D2C041 /* PYPhotosPreviewController.m in Sources */,
 				7C6CB3CC208846A200B352AE /* UIView+CustomControlView.m in Sources */,
-				7C11AEC120F300AC00031863 /* RecordAudio.m in Sources */,
 				7C7DD436212AC17600F1644A /* PopoverViewCell.m in Sources */,
 				7CF837532081D4B70078E28B /* SDCollectionViewCell.m in Sources */,
 				57A1453420FEE95700ACC90E /* PYSearchViewController.m in Sources */,

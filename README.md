@@ -36,10 +36,14 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
-### v1.6.2
+### v1.6.5
 
+- [gang544043963/LGAudioKit (master == f903ab6)](https://github.com/gang544043963/LGAudioKit)
 - [lifution/Popover (v2.2)](https://github.com/lifution/Popover)
 - [sakkaras/SKSTableView (master == edc6b78)](https://github.com/sakkaras/SKSTableView)
+
+- ~~[renzifeng/ZFNavigationController](https://github.com/renzifeng/ZFNavigationController)~~
+- ~~[guange2015/ios-amr(v1.3 eff9391)](https://github.com/guange2015/ios-amr)~~
 
 ### v1.6.0
 
@@ -52,7 +56,7 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ### v1.4.1
 
-- [guange2015/ios-amr(v1.3 eff9391)](https://github.com/guange2015/ios-amr)
+- ~~[guange2015/ios-amr(v1.3 eff9391)](https://github.com/guange2015/ios-amr)~~
 
 ### v1.4.0
 
@@ -75,7 +79,7 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 - [paytronix/ASIHTTPRequest](https://github.com/paytronix/ASIHTTPRequest)
 - [tonymillion/Reachability](https://github.com/tonymillion/Reachability)
 - [renzifeng/ZFDownload](https://github.com/renzifeng/ZFDownload)
-- [renzifeng/ZFNavigationController](https://github.com/renzifeng/ZFNavigationController)
+- ~~[renzifeng/ZFNavigationController](https://github.com/renzifeng/ZFNavigationController)~~
 - [renzifeng/ZFPlayer](https://github.com/renzifeng/ZFPlayer)
 
 ### v1.0.0

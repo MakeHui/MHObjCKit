@@ -50,8 +50,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self _initialization];
-        
-        
+        _tappedOnBackgroundDisappear = true;
     }
     return self;
 }
@@ -106,7 +105,7 @@
                   confirmBtnTextColor:(UIColor *)confirmBtnTextColor
                     otherBtnTextColor:(UIColor *)otherBtnTextColor
                    buttonPressedBlock:(void (^)(NSInteger btnIdx))buttonPressedBlock
-                   viewDismissedBlock:(void (^)())viewDismissedBlock
+                   viewDismissedBlock:(void (^)(void))viewDismissedBlock
 {
     ZHPopupView *popView = [ZHPopupView popUpDialogViewInView:view
                                                       iconImg:iconImg
@@ -153,7 +152,7 @@
                        confirmBtnTextColor:(UIColor *)confirmBtnTextColor
                          otherBtnTextColor:(UIColor *)otherBtnTextColor
                         buttonPressedBlock:(void (^)(NSInteger btnIdx))buttonPressedBlock
-                        viewDismissedBlock:(void (^)())viewDismissedBlock
+                        viewDismissedBlock:(void (^)(void))viewDismissedBlock
 {
     ZHPopupView *popView = [ZHPopupView popupNormalAlertViewInView:view
                                                    backgroundStyle:backgroundType
@@ -304,8 +303,6 @@
 - (void)pressedOnTitleButton:(UIButton *)sender {
     
     NSInteger idx = sender.tag - 233;
-    
-    [self disappear];
     
     if (nil != self.buttonPressedBlock) {
         self.buttonPressedBlock(idx);
@@ -565,7 +562,9 @@
     if (CGRectContainsPoint(self.container.frame, location)) {
         return;
     }
-    [self disappear];
+    if (self.tappedOnBackgroundDisappear) {
+        [self disappear];
+    }
     
     if (self.viewDismissedBlock != nil) {
         _viewDismissedBlock();

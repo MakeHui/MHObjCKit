@@ -141,6 +141,7 @@
 		7C6CB419208846A200B352AE /* ZFHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CB3C1208846A200B352AE /* ZFHttpRequest.m */; };
 		7C6CB41D2088471300B352AE /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6CB41C2088471300B352AE /* libxml2.tbd */; };
 		7C6CB4202088478D00B352AE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6CB41E2088478D00B352AE /* Masonry.framework */; };
+		7C6F7FBB217DD0600007F1DD /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C6F7FBA217DD0600007F1DD /* MBProgressHUD.bundle */; };
 		7C7218D120F855C40081674A /* UIDevice+LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7218C520F855C40081674A /* UIDevice+LCActionSheet.m */; };
 		7C7218D220F855C40081674A /* LCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7218C620F855C40081674A /* LCActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C7218D320F855C40081674A /* LCActionSheetConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7218C720F855C40081674A /* LCActionSheetConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -430,6 +431,7 @@
 		7C6CB3C1208846A200B352AE /* ZFHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHttpRequest.m; sourceTree = "<group>"; };
 		7C6CB41C2088471300B352AE /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		7C6CB41E2088478D00B352AE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		7C6F7FBA217DD0600007F1DD /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		7C7218C520F855C40081674A /* UIDevice+LCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LCActionSheet.m"; sourceTree = "<group>"; };
 		7C7218C620F855C40081674A /* LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheet.h; sourceTree = "<group>"; };
 		7C7218C720F855C40081674A /* LCActionSheetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheetConfig.h; sourceTree = "<group>"; };
@@ -974,6 +976,7 @@
 				7C8C9A1A20EF77EA00D2C041 /* Controller */,
 				7C8C9A2320EF77EA00D2C041 /* Model */,
 				7C8C9A2620EF77EA00D2C041 /* View */,
+				7C6F7FBA217DD0600007F1DD /* MBProgressHUD.bundle */,
 				7C8C9A2F20EF77EA00D2C041 /* PYPhotosView.bundle */,
 			);
 			path = PYPhotoBrowser;
@@ -1452,6 +1455,7 @@
 				7C11AF0A20F5F33200031863 /* down_arrow_icon2@2x.png in Resources */,
 				7C7DD424212ABCB900F1644A /* expandableImage.png in Resources */,
 				7C7DD491212D3D7400F1644A /* toast_vol_5@2x.png in Resources */,
+				7C6F7FBB217DD0600007F1DD /* MBProgressHUD.bundle in Resources */,
 				7CF836A62081B4200078E28B /* JPVideoPlayer.bundle in Resources */,
 				7C8C9A4B20EF77EB00D2C041 /* PYPhotosView.bundle in Resources */,
 				7C11AF0520F5F32700031863 /* down_arrow_icon1@3x.png in Resources */,
@@ -1739,7 +1743,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93T9FJZ8S5;
+				DEVELOPMENT_TEAM = W9968EY3J2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1771,7 +1775,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93T9FJZ8S5;
+				DEVELOPMENT_TEAM = W9968EY3J2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

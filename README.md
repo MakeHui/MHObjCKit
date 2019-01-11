@@ -36,6 +36,10 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v1.7.1
+
+- [MakeHui/AwesomeMenu (master == f52b91c)](https://github.com/MakeHui/AwesomeMenu)
+
 ### v1.6.5
 
 - [gang544043963/LGAudioKit (master == f903ab6)](https://github.com/gang544043963/LGAudioKit)

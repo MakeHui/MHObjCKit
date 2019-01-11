@@ -183,3 +183,7 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 
 // https://github.com/gang544043963/LGAudioKit (master == f903ab6)
 #import <MHObjCKit/LGAudioKit.h>
+
+// https://github.com/levey/AwesomeMenu
+#import <MHObjCKit/AwesomeMenu.h>
+#import <MHObjCKit/AwesomeMenuItem.h>

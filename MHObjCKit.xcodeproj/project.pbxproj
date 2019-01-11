@@ -217,6 +217,10 @@
 		7C8C9A5420EF780100D2C041 /* DACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8C9A5020EF780100D2C041 /* DACircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C8C9A5820EF7B2700D2C041 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8C9A5720EF7B2700D2C041 /* MBProgressHUD.framework */; };
 		7CD807F42081AE6A00D398B8 /* MHObjCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD807F22081AE6A00D398B8 /* MHObjCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDBAFA821E33093003D8B8C /* AwesomeMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDBAFA421E33093003D8B8C /* AwesomeMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDBAFA921E33093003D8B8C /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBAFA521E33093003D8B8C /* AwesomeMenuItem.m */; };
+		7CDBAFAA21E33093003D8B8C /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBAFA621E33093003D8B8C /* AwesomeMenu.m */; };
+		7CDBAFAB21E33093003D8B8C /* AwesomeMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDBAFA721E33093003D8B8C /* AwesomeMenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CF0524B208DC44E00613E60 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF05243208DC44E00613E60 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CF0524C208DC44E00613E60 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF05244208DC44E00613E60 /* UIColor+HexString.m */; };
 		7CF0524D208DC44E00613E60 /* UIImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF05245208DC44E00613E60 /* UIImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -509,6 +513,10 @@
 		7CD807EF2081AE6A00D398B8 /* MHObjCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHObjCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD807F22081AE6A00D398B8 /* MHObjCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHObjCKit.h; sourceTree = "<group>"; };
 		7CD807F32081AE6A00D398B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDBAFA421E33093003D8B8C /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
+		7CDBAFA521E33093003D8B8C /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
+		7CDBAFA621E33093003D8B8C /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
+		7CDBAFA721E33093003D8B8C /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
 		7CF05243208DC44E00613E60 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		7CF05244208DC44E00613E60 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		7CF05245208DC44E00613E60 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
@@ -1074,6 +1082,7 @@
 		7CD807F12081AE6A00D398B8 /* MHObjCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7CDBAFA321E33093003D8B8C /* AwesomeMenu */,
 				7C7DD42A212AC17600F1644A /* PopoverView */,
 				7C7DD419212ABCB800F1644A /* SKSTableView */,
 				57A1452320FEE95600ACC90E /* PYSearch */,
@@ -1098,6 +1107,17 @@
 				7CD807F32081AE6A00D398B8 /* Info.plist */,
 			);
 			path = MHObjCKit;
+			sourceTree = "<group>";
+		};
+		7CDBAFA321E33093003D8B8C /* AwesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7CDBAFA421E33093003D8B8C /* AwesomeMenu.h */,
+				7CDBAFA521E33093003D8B8C /* AwesomeMenuItem.m */,
+				7CDBAFA621E33093003D8B8C /* AwesomeMenu.m */,
+				7CDBAFA721E33093003D8B8C /* AwesomeMenuItem.h */,
+			);
+			path = AwesomeMenu;
 			sourceTree = "<group>";
 		};
 		7CF05242208DC44E00613E60 /* ZHPopupView */ = {
@@ -1388,6 +1408,8 @@
 				7C7DD422212ABCB900F1644A /* SKSTableView.h in Headers */,
 				7C7DD425212ABCB900F1644A /* SKSTableViewCellIndicator.h in Headers */,
 				7C7DD428212ABCB900F1644A /* SKSTableViewCell.h in Headers */,
+				7CDBAFAB21E33093003D8B8C /* AwesomeMenuItem.h in Headers */,
+				7CDBAFA821E33093003D8B8C /* AwesomeMenu.h in Headers */,
 				7CD807F42081AE6A00D398B8 /* MHObjCKit.h in Headers */,
 				7CF836B52081B4200078E28B /* JPVideoPlayerManager.h in Headers */,
 			);
@@ -1568,6 +1590,7 @@
 				7C8C9A3F20EF77EB00D2C041 /* PYPhotosPreviewController.m in Sources */,
 				7C6CB3CC208846A200B352AE /* UIView+CustomControlView.m in Sources */,
 				7C7DD436212AC17600F1644A /* PopoverViewCell.m in Sources */,
+				7CDBAFA921E33093003D8B8C /* AwesomeMenuItem.m in Sources */,
 				7CF837532081D4B70078E28B /* SDCollectionViewCell.m in Sources */,
 				57A1453420FEE95700ACC90E /* PYSearchViewController.m in Sources */,
 				57A1453520FEE95700ACC90E /* PYSearchSuggestionViewController.m in Sources */,
@@ -1594,6 +1617,7 @@
 				7C8C9A4A20EF77EB00D2C041 /* PYPhotoView.m in Sources */,
 				7C11AEF720F5E85200031863 /* JFCityViewController.m in Sources */,
 				7C11AEF320F5E85200031863 /* JFAreaDataManager.m in Sources */,
+				7CDBAFAA21E33093003D8B8C /* AwesomeMenu.m in Sources */,
 				7C11AECA20F300AC00031863 /* amrFileCodec.m in Sources */,
 				7CF8374F2081D4B70078E28B /* TADotView.m in Sources */,
 				7C6CB3FD208846A200B352AE /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,

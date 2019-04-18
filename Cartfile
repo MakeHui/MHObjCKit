@@ -1,5 +1,5 @@
-github "kishikawakatsumi/UICKeyChainStore"
-github "SnapKit/Masonry"
-github "rs/SDWebImage"
-github "jdg/MBProgressHUD"
-github "ccgus/fmdb"
+github "kishikawakatsumi/UICKeyChainStore" ~> 2.1.2
+github "SnapKit/Masonry" ~> 1.1.0
+github "rs/SDWebImage" ~> 4.4.6
+github "jdg/MBProgressHUD" ~> 1.1.0
+github "ccgus/fmdb" ~> 2.7.5

@@ -57,19 +57,34 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 
 
 // https://github.com/renzifeng/ZFPlayer
-#import <MHObjCKit/ASValuePopUpView.h>
-#import <MHObjCKit/ASValueTrackingSlider.h>
-#import <MHObjCKit/UIImageView+ZFCache.h>
-#import <MHObjCKit/UIView+CustomControlView.h>
-#import <MHObjCKit/UIViewController+ZFPlayerRotation.h>
-#import <MHObjCKit/UIWindow+CurrentViewController.h>
-#import <MHObjCKit/MMMaterialDesignSpinner.h>
-#import <MHObjCKit/ZFBrightnessView.h>
 #import <MHObjCKit/ZFPlayer.h>
+#import <MHObjCKit/ZFAVPlayerManager.h>
+#import <MHObjCKit/UIView+ZFFrame.h>
+#import <MHObjCKit/ZFLandScapeControlView.h>
+#import <MHObjCKit/ZFLoadingView.h>
+#import <MHObjCKit/ZFNetworkSpeedMonitor.h>
 #import <MHObjCKit/ZFPlayerControlView.h>
-#import <MHObjCKit/ZFPlayerControlViewDelegate.h>
-#import <MHObjCKit/ZFPlayerModel.h>
+#import <MHObjCKit/ZFPortraitControlView.h>
+#import <MHObjCKit/ZFSliderView.h>
+#import <MHObjCKit/ZFSmallFloatControlView.h>
+#import <MHObjCKit/ZFSpeedLoadingView.h>
+#import <MHObjCKit/ZFUtilities.h>
+#import <MHObjCKit/ZFVolumeBrightnessView.h>
+#import <MHObjCKit/ZFFloatView.h>
+#import <MHObjCKit/ZFKVOController.h>
+#import <MHObjCKit/ZFOrientationObserver.h>
+#import <MHObjCKit/ZFPlayerController.h>
+#import <MHObjCKit/ZFPlayerGestureControl.h>
+#import <MHObjCKit/ZFPlayerLogManager.h>
+#import <MHObjCKit/ZFPlayerMediaControl.h>
+#import <MHObjCKit/ZFPlayerMediaPlayback.h>
+#import <MHObjCKit/ZFPlayerNotification.h>
 #import <MHObjCKit/ZFPlayerView.h>
+#import <MHObjCKit/ZFReachabilityManager.h>
+#import <MHObjCKit/KSMediaPlayerManager.h>
+#import <MHObjCKit/ZFIJKPlayerManager.h>
+#import <MHObjCKit/UIImageView+ZFCache.h>
+#import <MHObjCKit/UIScrollView+ZFPlayer.h>
 
 // https://github.com/newyjp/JPVideoPlayer
 #import <MHObjCKit/JPResourceLoadingRequestTask.h>

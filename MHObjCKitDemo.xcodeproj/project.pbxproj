@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C23057C226F0F3300C092AE /* ZFFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C23057A226F0F3200C092AE /* ZFFullScreenViewController.m */; };
 		7C6F7FB4217DAB040007F1DD /* MHLGAudioKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F7FB3217DAB040007F1DD /* MHLGAudioKitViewController.m */; };
 		7C6F7FB7217DBB690007F1DD /* MHObjCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9EB280217DA71200CB0302 /* MHObjCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7C6F7FB8217DBBA50007F1DD /* MHObjCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9EB280217DA71200CB0302 /* MHObjCKit.framework */; };
@@ -55,6 +56,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7C23057A226F0F3200C092AE /* ZFFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFFullScreenViewController.m; sourceTree = "<group>"; };
+		7C23057B226F0F3200C092AE /* ZFFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFFullScreenViewController.h; sourceTree = "<group>"; };
 		7C6F7FB2217DAB040007F1DD /* MHLGAudioKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHLGAudioKitViewController.h; sourceTree = "<group>"; };
 		7C6F7FB3217DAB040007F1DD /* MHLGAudioKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHLGAudioKitViewController.m; sourceTree = "<group>"; };
 		7C9EB23F217DA3B700CB0302 /* MHObjCKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHObjCKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +157,8 @@
 				7C9EB246217DA3B700CB0302 /* ViewController.m */,
 				7C6F7FB2217DAB040007F1DD /* MHLGAudioKitViewController.h */,
 				7C6F7FB3217DAB040007F1DD /* MHLGAudioKitViewController.m */,
+				7C23057B226F0F3200C092AE /* ZFFullScreenViewController.h */,
+				7C23057A226F0F3200C092AE /* ZFFullScreenViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 				7C9EB247217DA3B700CB0302 /* ViewController.m in Sources */,
 				7C9EB252217DA3B900CB0302 /* main.m in Sources */,
 				7C9EB244217DA3B700CB0302 /* AppDelegate.m in Sources */,
+				7C23057C226F0F3300C092AE /* ZFFullScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,6 +36,10 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v2.0.1
+
+- [renzifeng/ZFPlayer (3.2.11)](https://github.com/renzifeng/ZFPlayer) 
+
 ### v2.0.0
 
 - [renzifeng/ZFPlayer (3.2.10)](https://github.com/renzifeng/ZFPlayer) 

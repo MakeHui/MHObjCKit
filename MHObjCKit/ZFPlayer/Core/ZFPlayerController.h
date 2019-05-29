@@ -30,6 +30,7 @@
 #import "ZFPlayerGestureControl.h"
 #import "ZFPlayerNotification.h"
 #import "ZFFloatView.h"
+#import "UIScrollView+ZFPlayer.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -46,6 +47,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// The notification manager class.
 @property (nonatomic, strong, readonly) ZFPlayerNotification *notification;
+
+/// The container view type.
+@property (nonatomic, assign, readonly) ZFPlayerContainerType containerType;
+
+/// The player's small container view.
+@property (nonatomic, strong, readonly) ZFFloatView *smallFloatView;
+
+/// Whether the small window is displayed.
+@property (nonatomic, assign, readonly) BOOL isSmallFloatViewShow;
 
 /*!
  @method            playerWithPlayerManager:containerView:
@@ -67,7 +77,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /*!
  @method            playerWithScrollView:playerManager:containerViewTag:
- @abstract          Create an ZFPlayerController that plays a single audiovisual item. Use in `tableView` or `collectionView`.
+ @abstract          Create an ZFPlayerController that plays a single audiovisual item. Use in `UITableView` or `UICollectionView`.
  @param             scrollView is `tableView` or `collectionView`.
  @param             playerManager must conform `ZFPlayerMediaPlayback` protocol.
  @param             containerViewTag to see the video at scrollView must set the contrainerViewTag.
@@ -77,13 +87,31 @@ NS_ASSUME_NONNULL_BEGIN
 
 /*!
  @method            initWithScrollView:playerManager:containerViewTag:
- @abstract          Create an ZFPlayerController that plays a single audiovisual item. Use in `tableView` or `collectionView`.
+ @abstract          Create an ZFPlayerController that plays a single audiovisual item. Use in `UITableView` or `UICollectionView`.
  @param             scrollView is `tableView` or `collectionView`.
  @param             playerManager must conform `ZFPlayerMediaPlayback` protocol.
  @param             containerViewTag to see the video at scrollView must set the contrainerViewTag.
  @result            An instance of ZFPlayerController.
  */
 - (instancetype)initWithScrollView:(UIScrollView *)scrollView playerManager:(id<ZFPlayerMediaPlayback>)playerManager containerViewTag:(NSInteger)containerViewTag;
+
+/*!
+ @method            playerWithScrollView:playerManager:containerView:
+ @abstract          Create an ZFPlayerController that plays a single audiovisual item. Use in `UIScrollView`.
+ @param             playerManager must conform `ZFPlayerMediaPlayback` protocol.
+ @param             containerView to see the video at the scrollView.
+ @result            An instance of ZFPlayerController.
+ */
++ (instancetype)playerWithScrollView:(UIScrollView *)scrollView playerManager:(id<ZFPlayerMediaPlayback>)playerManager containerView:(UIView *)containerView;
+
+/*!
+ @method            initWithScrollView:playerManager:containerView:
+ @abstract          Create an ZFPlayerController that plays a single audiovisual item. Use in `UIScrollView`.
+ @param             playerManager must conform `ZFPlayerMediaPlayback` protocol.
+ @param             containerView to see the video at the scrollView.
+ @result            An instance of ZFPlayerController.
+ */
+- (instancetype)initWithScrollView:(UIScrollView *)scrollView playerManager:(id<ZFPlayerMediaPlayback>)playerManager containerView:(UIView *)containerView;
 
 @end
 
@@ -217,6 +245,31 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)replaceCurrentPlayerManager:(id<ZFPlayerMediaPlayback>)manager;
 
+/**
+ Add video to the cell.
+ */
+- (void)addPlayerViewToCell;
+
+/**
+ Add video to the container view.
+ */
+- (void)addPlayerViewToContainerView:(UIView *)containerView;
+
+/**
+ Add to the keyWindow.
+ */
+- (void)addPlayerViewToKeyWindow;
+
+/**
+ Stop the current playing video and remove the playerView.
+ */
+- (void)stopCurrentPlayingView;
+
+/**
+ stop the current playing video on cell.
+ */
+- (void)stopCurrentPlayingCell;
+
 @end
 
 @interface ZFPlayerController (ZFPlayerOrientationRotation)
@@ -315,12 +368,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// WWAN network auto play, only support in scrollView mode when the `shouldAutoPlay` is YES, default is NO.
 @property (nonatomic, getter=isWWANAutoPlay) BOOL WWANAutoPlay;
 
-/// The current playing cell has out off the screen, the player add the small container view.
-@property (nonatomic, readonly, nullable) ZFFloatView *smallFloatView;
-
-/// Whether the small window is displayed.
-@property (nonatomic, readonly) BOOL isSmallFloatViewShow;
-
 /// The indexPath is playing.
 @property (nonatomic, readonly, nullable) NSIndexPath *playingIndexPath;
 
@@ -370,23 +417,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, nullable) void(^zf_playerDidDisappearInScrollView)(NSIndexPath *indexPath);
 
 /**
- Add the playerView to cell.
- */
-- (void)updateScrollViewPlayerToCell;
-
-/**
- Add the playerView to containerView.
-
- @param containerView The playerView containerView.
- */
-- (void)updateNoramlPlayerWithContainerView:(UIView *)containerView;
-
-/**
- stop the current playing video on cell.
- */
-- (void)stopCurrentPlayingCell;
-
-/**
  Play the indexPath of url, while the `assetURLs` or `sectionAssetURLs` is not NULL.
 
  @param indexPath Play the indexPath of url.
@@ -418,6 +448,22 @@ NS_ASSUME_NONNULL_BEGIN
  @param completionHandler Scroll completion callback.
  */
 - (void)playTheIndexPath:(NSIndexPath *)indexPath scrollToTop:(BOOL)scrollToTop completionHandler:(void (^ __nullable)(void))completionHandler;
+
+@end
+
+@interface ZFPlayerController (ZFPlayerDeprecated)
+
+/**
+ Add the playerView to cell.
+ */
+- (void)updateScrollViewPlayerToCell  __attribute__((deprecated("use `addPlayerViewToCell:` instead.")));
+
+/**
+ Add the playerView to containerView.
+ 
+ @param containerView The playerView containerView.
+ */
+- (void)updateNoramlPlayerWithContainerView:(UIView *)containerView __attribute__((deprecated("use `addPlayerViewToContainerView:` instead.")));
 
 @end
 

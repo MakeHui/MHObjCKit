@@ -11,6 +11,12 @@
 #import "FLAnimatedImage.h"
 #endif
 
+#if __has_include(<SDWebImage/FLAnimatedImageView.h>)
+#import <SDWebImage/FLAnimatedImageView.h>
+#else
+#import "FLAnimatedImageView.h"
+#endif
+
 @class PYPhotoView;
 
 @interface PYPhoto : NSObject

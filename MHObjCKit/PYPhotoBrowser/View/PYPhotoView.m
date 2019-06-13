@@ -11,6 +11,12 @@
 #import "SDWebImage.h"
 #endif
 
+#if __has_include(<SDWebImage/FLAnimatedImage.h>)
+#import <SDWebImage/FLAnimatedImage.h>
+#else
+#import "FLAnimatedImage.h"
+#endif
+
 
 #import "PYPhotoView.h"
 #import "PYPhoto.h"

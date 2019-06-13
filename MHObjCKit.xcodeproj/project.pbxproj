@@ -54,6 +54,7 @@
 		7C11AF0920F5F33200031863 /* down_arrow_icon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C11AF0720F5F33200031863 /* down_arrow_icon2@3x.png */; };
 		7C11AF0A20F5F33200031863 /* down_arrow_icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C11AF0820F5F33200031863 /* down_arrow_icon2@2x.png */; };
 		7C37C17720EF837100FAFFED /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C37C17620EF837100FAFFED /* SDWebImage.framework */; };
+		7C3D882222B1F3E600EB3B11 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3D882122B1F3E500EB3B11 /* FLAnimatedImage.framework */; };
 		7C6CB3DE208846A200B352AE /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6CB381208846A100B352AE /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C6CB3DF208846A200B352AE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CB382208846A100B352AE /* Reachability.m */; };
 		7C6CB3E0208846A200B352AE /* ASIAuthenticationDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6CB384208846A200B352AE /* ASIAuthenticationDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -378,6 +379,7 @@
 		7C11AF0720F5F33200031863 /* down_arrow_icon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow_icon2@3x.png"; sourceTree = "<group>"; };
 		7C11AF0820F5F33200031863 /* down_arrow_icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow_icon2@2x.png"; sourceTree = "<group>"; };
 		7C37C17620EF837100FAFFED /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		7C3D882122B1F3E500EB3B11 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAnimatedImage.framework; path = Carthage/Build/iOS/FLAnimatedImage.framework; sourceTree = "<group>"; };
 		7C6CB381208846A100B352AE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		7C6CB382208846A100B352AE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		7C6CB384208846A200B352AE /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
@@ -661,6 +663,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3D882222B1F3E600EB3B11 /* FLAnimatedImage.framework in Frameworks */,
 				7C11AF0220F5E95200031863 /* FMDB.framework in Frameworks */,
 				7C37C17720EF837100FAFFED /* SDWebImage.framework in Frameworks */,
 				7C8C9A5820EF7B2700D2C041 /* MBProgressHUD.framework in Frameworks */,
@@ -1378,6 +1381,7 @@
 		7CF8375D2081D6EE0078E28B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C3D882122B1F3E500EB3B11 /* FLAnimatedImage.framework */,
 				7C11AF0120F5E95200031863 /* FMDB.framework */,
 				7C37C17620EF837100FAFFED /* SDWebImage.framework */,
 				7C8C9A5720EF7B2700D2C041 /* MBProgressHUD.framework */,
@@ -1651,7 +1655,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/Carthage copy-frameworks";
+			shellScript = "/usr/local/bin/Carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

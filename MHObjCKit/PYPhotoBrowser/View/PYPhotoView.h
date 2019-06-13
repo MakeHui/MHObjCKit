@@ -13,8 +13,8 @@
 #import "SDWebImage.h"
 #endif
 
-#if __has_include(<SDWebImage/FLAnimatedImageView.h>)
-#import <SDWebImage/FLAnimatedImageView.h>
+#if __has_include(<FLAnimatedImage/FLAnimatedImageView.h>)
+#import <FLAnimatedImage/FLAnimatedImageView.h>
 #else
 #import "FLAnimatedImageView.h"
 #endif

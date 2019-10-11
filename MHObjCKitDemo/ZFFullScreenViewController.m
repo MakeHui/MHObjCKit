@@ -26,7 +26,7 @@ static NSString *kVideoCover = @"https://upload-images.jianshu.io/upload_images/
     @weakify(self)
     self.controlView.backBtnClickCallback = ^{
         @strongify(self)
-//        [self.player enterFullScreen:NO animated:NO];
+        [self.player enterFullScreen:NO animated:NO];
         [self.player stop];
         [self.navigationController popViewControllerAnimated:NO];
     };

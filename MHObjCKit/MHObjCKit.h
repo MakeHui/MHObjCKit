@@ -138,26 +138,6 @@ FOUNDATION_EXPORT const unsigned char MHObjCKitVersionString[];
 #import <MHObjCKit/UIView+DropShadow.h>
 #import <MHObjCKit/ZHPopupView.h>
 
-// https://github.com/Flipboard/FLAnimatedImage
-#import <MHObjCKit/DACircularProgressView.h>
-#import <MHObjCKit/DALabeledCircularProgressView.h>
-
-// https://github.com/ko1o/PYPhotoBrowser (1.5.6)
-#import <MHObjCKit/PYPhotoBrowser.h>
-#import <MHObjCKit/MBProgressHUD+PYExtension.h>
-#import <MHObjCKit/UIView+PYExtension.h>
-#import <MHObjCKit/PYPhotosNavigationController.h>
-#import <MHObjCKit/PYPhotosPreviewController.h>
-#import <MHObjCKit/PYPhotosReaderController.h>
-#import <MHObjCKit/PYPhotosViewController.h>
-#import <MHObjCKit/PYPhoto.h>
-#import <MHObjCKit/PYPhotoBrowserConst.h>
-#import <MHObjCKit/PYProgressView.h>
-#import <MHObjCKit/PYPhotoBrowseView.h>
-#import <MHObjCKit/PYPhotoCell.h>
-#import <MHObjCKit/PYPhotoView.h>
-#import <MHObjCKit/PYPhotosView.h>
-
 // https://github.com/zhifenx/JFCitySelector (master 6b72c63)
 #import <MHObjCKit/JFAreaDataManager.h>
 #import <MHObjCKit/JFButton.h>

@@ -113,7 +113,6 @@ static const NSInteger kRecordLimit = 60;
  播放音频
  */
 - (IBAction)onPlayTouchUpInside:(UIButton *)sender {
-    [MBProgressHUD py_showSuccess:@"保存图片出错" toView:self.view];
     if ([sender.titleLabel.text isEqualToString:@"播放录音"]) {
         NSString *recordUrl = [[LGSoundRecorder shareInstance] soundFilePath];
         if ([recordUrl length] > 0) {

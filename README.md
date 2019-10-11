@@ -36,6 +36,11 @@ Run `carthage update` to build the framework and drag the built `MHObjCKit.frame
 
 ## 3rdparty
 
+### v3.0.0
+
+- ~~[renzifeng/ZFPlayer](https://github.com/renzifeng/ZFPlayer)~~
+- ~~[gko1o/PYPhotoBrowser](https://github.com/ko1o/PYPhotoBrowser)~~
+
 ### v2.0.1
 
 - [renzifeng/ZFPlayer (3.2.11)](https://github.com/renzifeng/ZFPlayer) 

@@ -1,5 +1,5 @@
 github "Flipboard/FLAnimatedImage" "1.0.14"
-github "SDWebImage/SDWebImage" "5.0.6"
+github "MakeHui/SDWebImage" "13ee55e72cde5112282ca07c721745f9621621be"
 github "SnapKit/Masonry" "v1.1.0"
 github "ccgus/fmdb" "2.7.5"
 github "jdg/MBProgressHUD" "1.1.0"

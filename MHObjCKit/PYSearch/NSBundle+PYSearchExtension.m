@@ -21,10 +21,6 @@
         if (nil == searchBundle) { // Empty description resource file in `PYSearch.framework`.
             searchBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[PYSearchViewController class]] pathForResource:@"PYSearch" ofType:@"bundle"]];
         }
-        
-        if (nil == searchBundle) {
-            searchBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"Frameworks/MHObjCKit.framework/PYSearch.bundle" ofType:nil]];
-        }
     }
     return searchBundle;
 }
